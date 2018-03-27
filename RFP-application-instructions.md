@@ -9,7 +9,7 @@ To apply, please send email an application to rfp@protocol.ai.  To enable us to 
  - An explanation of your proposed approach to the problem.
  - Request for award amount and estimated total overall budget.
 
-For each question, please write no more than 200 words.
+For each question, please write no more than 200 words unless instructed otherwise on the RFP itself.
 
 Information about grant deadlines, award size, and payout schedule are described on individual RFPs.  Questions, comments, concerns, and feedback on this process can be sent to [rfp@protocol.ai](mailto:rfp@protocol.ai).
 
