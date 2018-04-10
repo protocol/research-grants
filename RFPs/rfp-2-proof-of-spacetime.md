@@ -8,7 +8,7 @@ We aim at stimulating the creation of novel constructions for Proof-of-Spacetime
 **Application Deadline:** May 30th
 
 **Recommended team**
- - 1-few cryptography researchers
+ - From 1 to few cryptography researchers
  - Experience with applied cryptography, including verifiable computation
 
 **Objective:** Address any of Concrete Open Problems (1-5) in the Problem Statement linked
@@ -17,7 +17,7 @@ We aim at stimulating the creation of novel constructions for Proof-of-Spacetime
 
 **Award:** Up to $200,000 (USD) per grant with up to 20% payable in Filecoin
 
-**Payout schedule:** award winners receive the full disbursement shortly after selection
+**Payout schedule:** Award winners receive the full disbursement shortly after selection
 
 **Application Instructions**: [RFP Application Instructions](https://github.com/protocol/research-RFPs/blob/master/RFP-application-instructions.md)
 

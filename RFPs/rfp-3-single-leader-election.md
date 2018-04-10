@@ -8,7 +8,7 @@ We aim to improve the original Leader Election protocol described in the [Fileco
 **Application Deadline:** May 30th
 
 **Recommended team**
- - 1-few distributed systems and/or cryptography researchers
+ - From 1 to few distributed systems and/or cryptography researchers
  - Experience with applied cryptography and distributed consensus mechanisms
 
 
@@ -19,7 +19,7 @@ We aim to improve the original Leader Election protocol described in the [Fileco
 
 **Award:** Up to $200,000 (USD) per grant with up to 20% payable in Filecoin
 
-**Payout schedule:** award winners receive the full disbursement shortly after selection
+**Payout schedule:** Award winners receive the full disbursement shortly after selection
 
 **Application Instructions**: [RFP Application Instructions](https://github.com/protocol/research-RFPs/blob/master/RFP-application-instructions.md)
 
