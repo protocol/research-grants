@@ -22,6 +22,8 @@ Requests for Proposals are a fairly common method for funding individuals and gr
   - **[RFP-1: Novel constructions for Proof-of-Replication](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-1-proof-of-replication.md)**
   - **[RFP-2: Novel constructions for Proof-of-Spacetime](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-2-proof-of-spacetime.md)**
   - **[RFP-3: Single Secret Leader Election](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-3-single-leader-election.md)**
+  - **[RFP-4: Decentralised Access Control in CRDTs](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-4-CRDT-ACL.md)**
+  - **[RFP-5: Optimize storage and convergence time in causal CmRDTs](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-5-optimized-CmRDT.md)**
   - (more to be announced, please check back later)
  
 ---
