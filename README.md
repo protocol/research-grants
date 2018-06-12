@@ -19,12 +19,17 @@ Similar to a bug bounty program, we may occasionally post problems in this repos
 ## RFPs and Grants
 Requests for Proposals are a fairly common method for funding individuals and groups to solve problems.  In our case, we may have a list of self-contained problems that likely require a sufficiently large time commitment that funding will be often provided at intervals or checkpoints, rather than upon completion.  These would have the goal of funding researchers to develop or find novel results on these topics.  RFPs are posted as issues in this repo, and a summary of active RFPs may be found below:
 
-  - **[RFP-1: Novel constructions for Proof-of-Replication](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-1-proof-of-replication.md)**
-  - **[RFP-2: Novel constructions for Proof-of-Spacetime](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-2-proof-of-spacetime.md)**
-  - **[RFP-3: Single Secret Leader Election](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-3-single-leader-election.md)**
+### ACTIVE: 
   - **[RFP-4: Decentralised Access Control in CRDTs](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-4-CRDT-ACL.md)**
   - **[RFP-5: Optimize storage and convergence time in causal CmRDTs](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-5-optimized-CmRDT.md)**
   - (more to be announced, please check back later)
  
+### INACTIVE:
+  - **[RFP-1: Novel constructions for Proof-of-Replication](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-1-proof-of-replication.md)**
+  - **[RFP-2: Novel constructions for Proof-of-Spacetime](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-2-proof-of-spacetime.md)**
+  - **[RFP-3: Single Secret Leader Election](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-3-single-leader-election.md)**
+We may reopen inactive RFPs at a later date to encourage explorations of novel directions.
+
+
 ---
 Please watch this repo or check back regularly.  We will be constantly adding addional RFPs to this repo.
