@@ -2,6 +2,9 @@
 
 This repository will contain offers that Protocol Labs is making or has made to fund research in areas relevant to our core mission of improving the internet.  It is one of the structural research repository described in [research/README.md](https://github.com/protocol/research); please follow that link if you're interested in the organization of the research repositories.
 
+Below is an exhaustive list of of the problems Protocol Labs currently intends to fund.  To submit a proposal addressing an unlisted problem, first describe the problem you intend to solve in an issue in [protocol/research](https://github.com/protocol/research/issues), and follow the issue template.  The issue should stimulate discussion and verify that the problem is clearly defined, nontrivial, and important.  Then follow our [application guidelines](https://github.com/protocol/research-RFPs/blob/master/RFP-application-instructions.md) to submit your solution.  Naturally, even following these steps does not guarantee that we would fund the proposal.
+
+
 # What's in This Repo?
 
 This repo contains Requests For Proposals (RFPs) for the Grant program, which is elaborated below.
@@ -29,7 +32,6 @@ Requests for Proposals are a fairly common method for funding individuals and gr
   - **[RFP-2: Novel constructions for Proof-of-Spacetime](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-2-proof-of-spacetime.md)**
   - **[RFP-3: Single Secret Leader Election](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-3-single-leader-election.md)**
 We may reopen inactive RFPs at a later date to encourage explorations of novel directions.
-
 
 ---
 Please watch this repo or check back regularly.  We will be constantly adding addional RFPs to this repo.
