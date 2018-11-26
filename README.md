@@ -1,5 +1,5 @@
 # Protocol Labs - Research Requests for Proposals (RFPs) and Bounties
-![](https://img.shields.io/badge/team-research-0f41f4.svg?style=flat-square)
+[![](https://img.shields.io/badge/team-research-0f41f4.svg?style=flat-square)](https://github.com/protocol/research)
 
 This repository will contain offers that Protocol Labs is making or has made to fund research in areas relevant to our core mission of improving the internet.  It is one of the structural research repository described in [research/README.md](https://github.com/protocol/research); please follow that link if you're interested in the organization of the research repositories.
 
