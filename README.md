@@ -5,7 +5,10 @@ This repository will contain offers that Protocol Labs is making or has made to 
 
 Below is an exhaustive list of of the problems Protocol Labs currently intends to fund.  To submit a proposal addressing an unlisted problem, first describe the problem you intend to solve in an issue in [protocol/research](https://github.com/protocol/research/issues), and follow the issue template.  The issue should stimulate discussion and verify that the problem is clearly defined, nontrivial, and important.  Then follow our [application guidelines](https://github.com/protocol/research-RFPs/blob/master/RFP-application-instructions.md) to submit your solution.  Naturally, even following these steps does not guarantee that we would fund the proposal.
 
+### Maintainer
 
+[Evan Miyazono](https://github.com/miyazono)
+ 
 # What's in This Repo?
 
 This repo contains Requests For Proposals (RFPs) for the Grant program, which is elaborated below.
