@@ -29,6 +29,7 @@ Requests for Proposals are a fairly common method for funding individuals and gr
 ### ACTIVE: 
   - **[RFP-4: Decentralised Access Control in CRDTs](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-4-CRDT-ACL.md)**
   - **[RFP-5: Optimize storage and convergence time in causal CmRDTs](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-5-optimized-CmRDT.md)**
+  - **[RFP-6: Secret Single-Leader Election (SSLE)](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-6-SSLE.md)**
   - (more to be announced, please check back later)
  
 ### INACTIVE:
