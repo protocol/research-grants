@@ -137,4 +137,6 @@ Depending on how `Fe` is constructed, this could lead to significant on-chain st
 
 **Payout schedule:** Award winners receive the majority of the disbursement shortly after selection, with the remainder presented upon completion of the work.
 
+**Application Instructions**: [RFP Application Instructions](https://github.com/protocol/research-RFPs/blob/master/RFP-application-instructions.md)
+
 **Results are to be released as open source under MIT license**
