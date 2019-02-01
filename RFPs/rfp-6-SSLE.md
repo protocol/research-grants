@@ -1,6 +1,6 @@
 # Secret Single-Leader Election (SSLE)
 
-**Brief description:**
+## Brief description
 
 A Secret Single-Leader Election (SSLE) for a given clock blockchain round `r` is a function that *fairly* and *secretly* selects a single leader from a set of participants in such a way that efficiently guarantees finality and liveness. Only when the selected participant proposes a block for round `r` will that miner reveal itself to other protocol participants as the verifiable leader for the block at round `r`. 
 
@@ -8,9 +8,9 @@ In the context of Filecoin, SSLE selects a block leader from a weighted set of m
 
 We discuss specific requirements for SSLE and distinguish it from existing consensus protocols below.
 
-**Problem Statement:**
+## Problem Statement
 
-What should SSLE address?
+### What should SSLE address?
 
 `Fork grinding` - Having multiple block leaders for a given round may result in opportunities for miners to selectively mine a branch. This process may potentially bias the protocol through grinding. A construction where only one block leader exists at any round `r`minimizes this form of grinding thereby helping secure the protocol.
 
@@ -22,7 +22,7 @@ Existing considerations that SSLE must preserve
 
 `Security` - We want to protect the Filecoin network from malicious actors. These attacks may affect liveness or finality and include but are not limited to Sybil, Eclipse, and Denial of Service (DoS). For instance, if a malicious actor were able to learn the identity of a miner who became a block leader, that actor may attempt to deny the leader's access to the Filecoin network (using a denial of service attack, for instance) before they publish their block; this would affect liveness and finality at least temporarily.
 
-Requirements & Constraints
+### Requirements & Constraints
 
 The following are the current set of protocol requirements for SSLE:
 
@@ -54,7 +54,7 @@ Furthermore, we require that any solution meet the following performance constra
 
 5. `Liveness` - The protocol must be robust in the face of sporadic participation in a given round. The protocol should guarantee progress if the majority of SSLE participants are honest and progress given sporadic partitions.
 
-Reasonable assumptions
+### Reasonable assumptions
 
 - The public keys of miners who have participated in at least one block are known by all SSLE participants.
 - A current accounting of power is available to all miners
@@ -70,7 +70,7 @@ Many consensus protocols in the literature, such as `Snow White`, `Algorand,` `O
 - `Ouroboros` elections are not secret.
 
 
-High-Level Example Protocol with Multiparty Computation
+### High-Level Example Protocol with Multiparty Computation
 
 Suppose a block `B_n` is the most recent addition to the Filecoin blockchain and winner `m_win` has not yet submitted its block. Furthermore, suppose that the expected time in which `m_win` should respond has not yet passed. `B_n` must contain  `m_win` as well as a list of members `c_i` that will select the next block leader. Each `c_i` has similar properties to `m_win`. We assume that all quantities are verified by each participant as they receive them.
 
@@ -89,7 +89,7 @@ MPC often presents communication challenges that might not allow it to have reas
 Certain MPC methods can be computationally expensive to set up.
 MPC methods often scale poorly with the number of participants.
 
-High-Level Example Protocol with Functional Encryption
+### High-Level Example Protocol with Functional Encryption
 
 Suppose there exists some functional encryption scheme with a trusted setup, 
 `Fe(seed, {miners}) = E_winner`
@@ -101,12 +101,13 @@ Requirements this method meets:
 
 If `Fe` is secure, then this protocol will be fair, secret, unpredictable, and Verifiable
 
-
 Possible issues with this method:
 
 This construction requires a trusted setup which may require updating if miners are added or removed from the network. This could lead to communication challenges as additional communication would need to performed in order to update `{miners}`.
 Functional encryption schemes are often computationally expensive.
 Depending on how `Fe` is constructed, this could lead to significant on-chain storage of `Fe` state.
+
+## RFP details
 
 **Application Deadline:**  Wednesday, February 27th, 2019
 
@@ -136,5 +137,7 @@ Depending on how `Fe` is constructed, this could lead to significant on-chain st
 **Award:** Up to $200,000 (USD) per grant with up to 20% payable in Filecoin.
 
 **Payout schedule:** Award winners receive the majority of the disbursement shortly after selection, with the remainder presented upon completion of the work.
+
+**Application Instructions**: [RFP Application Instructions](https://github.com/protocol/research-RFPs/blob/master/RFP-application-instructions.md)
 
 **Results are to be released as open source under MIT license**
