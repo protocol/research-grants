@@ -26,6 +26,7 @@ By submitting an application, an individual or organization agrees:
 - To use any support provided solely for the project described in the funding request and to provide documentation supporting this use, if requested,
 - To exercise control or coordination over the supported project,
 - To be willing to disclose that Protocol Labs provided financial support,
+- To include one researcher from Protocol Labs to participate in the research effort,
 - To release the results as open source under MIT license, if feasible.
 
 We reserve the right to change the terms and conditions, including canceling the program at any time without notice.  Please note that you are responsible for complying with taxes and laws, and you agree to provide us with enough information, at our request, so that we can comply with all relevant laws and regulations.  
