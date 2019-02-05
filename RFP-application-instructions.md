@@ -2,6 +2,7 @@
 
 To apply, please send email an application to rfp@protocol.ai and include the following:
  
+ - The ID/link of the open RFP (from [this list](https://github.com/protocol/research-RFPs)).
  - The names of the applicants.
  - Contact information for at least one of the authors.
  - A description of relevant experience.
