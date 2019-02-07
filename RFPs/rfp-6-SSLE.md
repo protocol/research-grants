@@ -109,7 +109,7 @@ Depending on how `Fe` is constructed, this could lead to significant on-chain st
 
 ## RFP details
 
-**Application Deadline:**  Wednesday, February 27th, 2019
+**Application Deadline:**  Wednesday, March 13th, 2019
 
 **Recommended team**
 
