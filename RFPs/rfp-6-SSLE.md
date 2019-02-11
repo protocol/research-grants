@@ -26,7 +26,7 @@ Existing considerations that SSLE must preserve
 
 The following are the current set of protocol requirements for SSLE:
 
-1. *Fair* - Recall that in a Proof-of-Stake or Power Fault Tolerance system, each miner has an associated *power* `p` which is related to the amount of physical storage a miner makes available to the Filecoin network. Since we want to incent miners to add more storage, each miner’s chance of becoming the canonical block leader should to be proportional to their power.
+1. *Fair* - In a Proof-of-Stake or Power Fault Tolerance system, each miner has an associated *power* `p` which is related to the amount of physical storage a miner makes available to the Filecoin network. Since we want to incent miners to add more storage, each miner’s chance of becoming the canonical block leader should to be proportional to their power.
 
 2. *Secret* - Only the canonical block leader at a round `r` can know that they are the leader until they broadcast a new block to the other miners. All miners should be able to verify the canonical block leader non-interactively.
 
