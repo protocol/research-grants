@@ -5,7 +5,7 @@ We aim to improve the original Leader Election protocol described in the [Fileco
 
 **Problem Statement:** https://github.com/protocol/research/issues/3
 
-**Application Deadline:** May 30th
+**Application Deadline:** 30 May 2018
 
 **Recommended team**
  - From 1 to few distributed systems and/or cryptography researchers
