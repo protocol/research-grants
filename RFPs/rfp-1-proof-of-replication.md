@@ -5,7 +5,7 @@ We aim at stimulating the creation of novel constructions for *Proof-of-Replicat
 
 **Problem Statement:** https://github.com/protocol/research/issues/4
 
-**Application Deadline:** May 30th
+**Application Deadline:** 30 May 2018
 
 **Recommended team**
  - From 1 to few cryptography researchers
