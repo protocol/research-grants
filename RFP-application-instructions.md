@@ -8,7 +8,7 @@ To apply, please send email an application to rfp@protocol.ai and include the fo
  - A description of relevant experience.
  - An explanation of your proposed approach to the problem.
  - An expected timeline and budget for completing **each** of the objectives.
- - Request for award amount.
+ - Request for award amount. Please include any overhead/indirect/F&A costs as a separate line item, if applicable.
 
 For each question, please write no more than 1000 words unless instructed otherwise on the RFP itself.
 
