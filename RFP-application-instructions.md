@@ -4,12 +4,11 @@ To apply, please send email an application to rfp@protocol.ai and include the fo
  
  - The ID/link of the open RFP (from [this list](https://github.com/protocol/research-RFPs)).
  - The names of the applicants.
- - Contact information for at least one of the authors.
+ - Contact information for at least one of the applicants.
  - A description of relevant experience.
- - An expected timeline for completing each of the objectives.
  - An explanation of your proposed approach to the problem.
- - Request for award amount and estimated total overall budget.
- 
+ - An expected timeline and budget for completing **each** of the objectives.
+ - Request for award amount.
 
 For each question, please write no more than 1000 words unless instructed otherwise on the RFP itself.
 
