@@ -28,17 +28,18 @@ Rolling: we will be reviewing applications in batches corresponding to calendar 
 
 #### Recommended team
 
-* One full-time Post-Doctoral researcher or two PhD students. Applicants can be in one or multiple institutions if proposers want to build a collaborative project. 
+* One full-time Post-Doctoral researcher or two PhD students. Applicants can be in one or multiple institutions if proposers want to build a collaborative project.
 * Experience with: distributed systems, P2P systems, DHTs, Internet routing protocols, content-addressable networks, Information-/Content-Centric Networks (ICN/CCN).
+
 We expect the technical depth of the work to be at the PhD level but smaller grants are also available to sponsor MSc level work.
 
 
 #### Objectives & Key Results
 
-* **Objective 1: Design of multi-level DHT**
-    1. Review related literature, create a short survey and identify solutions from which it is worth borrowing concepts 
+* **Objective 1:** Design of multi-level DHT
+    1. Review related literature, create a short survey and identify solutions from which it is worth borrowing concepts
     2. Design overall system architecture adapted for the case of libp2p (and IPFS as a use case)
-* **Objective 2: Performance and scalability evaluation**
+* **Objective 2:** Performance and scalability evaluation
     1. Demonstrate the performance of your design through formal methods, calculations (e.g. Python Notebook, ObservableHQ, etc.), or a simulation environment (e.g. PeerSim, ns-3) with regard to the following metrics:
         1. Look-up time (from when a node first seeks for a piece of content to when it finds a provider)
         2. Publication propagation time (time needed for published content to be discoverable by other nodes)
@@ -48,8 +49,8 @@ We expect the technical depth of the work to be at the PhD level but smaller gra
     2. Compare with alternatives and state of the art.
     3. The performance evaluation should take into account main network stats:
         1. Significant network size variation, with weekly cycles between 150K and 250K nodes.
-        2. Large fraction (75%+_) of nodes that undiable due to NAT/Firewalls.
-        3. A 100GB file transforms into a graph of roughly 1 million blocks when added to IPFS. For random-access to be possible, that means that roughly 2 million provides (DHT puts) need to happen every time interval (default: 24 hours). 
+        2. Large fraction (75%+) of nodes that undiable due to NAT/Firewalls.
+        3. A 100GB file transforms into a graph of roughly 1 million blocks when added to IPFS. For random-access to be possible, that means that roughly 2 million provides (DHT puts) need to happen every time interval (default: 24 hours).
 
 
 #### Award
@@ -67,4 +68,8 @@ Up to $70,000 per proposal. Possibility of up to 20% paid in FIL
 David Dias (@daviddias). We encourage you to reach out to rfp@protocol.ai if you’re considering applying or have any questions.
 
 
-**Results are to be released as open source under the [Permissive License Stack (Dual License Apache-2 + MIT)](https://protocol.ai/blog/announcing-the-permissive-license-stack/)**
+#### Application Instructions**
+
+[RFP Application Instructions](https://github.com/protocol/research-RFPs/blob/master/RFP-application-instructions.md)
+
+**Results are to be released as open source under the [Permissive License Stack](https://protocol.ai/blog/announcing-the-permissive-license-stack/) (Dual License Apache-2 + MIT).**
