@@ -67,7 +67,7 @@ We expect the technical depth of the work to be at the PhD level but smaller gra
 
 #### Award
 
-Up to $70,000 per proposal. Possibility of up to 20% paid in FIL.
+Up to $100,000 per proposal. Possibility of up to 20% paid in FIL.
 
 
 #### Payout schedule
