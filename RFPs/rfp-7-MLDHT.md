@@ -68,7 +68,7 @@ Up to $70,000 per proposal. Possibility of up to 20% paid in FIL
 David Dias (@daviddias). We encourage you to reach out to rfp@protocol.ai if you’re considering applying or have any questions.
 
 
-#### Application Instructions**
+#### Application Instructions
 
 [RFP Application Instructions](https://github.com/protocol/research-RFPs/blob/master/RFP-application-instructions.md)
 
