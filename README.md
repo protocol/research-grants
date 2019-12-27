@@ -8,7 +8,7 @@ Below is an exhaustive list of of the problems Protocol Labs currently intends t
 ### Maintainer
 
 [Evan Miyazono](https://github.com/miyazono)
- 
+
 # What's in This Repo?
 
 This repo contains Requests For Proposals (RFPs) for the Grant program, which is elaborated below.
@@ -19,16 +19,18 @@ This repo contains Requests For Proposals (RFPs) for the Grant program, which is
 <!-- ## Bounties
 Similar to a bug bounty program, we may occasionally post problems in this repository with an associated reward to be paid on delivery of a solution.  A list of active bounties may be found below
 
- - **(none at present, please check back later)** 
+ - **(none at present, please check back later)**
 -->
 
 
 ## RFPs and Grants
 Requests for Proposals are a fairly common method for funding individuals and groups to solve problems.  In our case, we may have a list of self-contained problems that likely require a sufficiently large time commitment that funding will be often provided at intervals or checkpoints, rather than upon completion.  These would have the goal of funding researchers to develop or find novel results on these topics.  RFPs are posted as issues in this repo, and a summary of active RFPs may be found below:
 
-### ACTIVE: 
+### ACTIVE:
+  - **[RFP-7: Multi-Level DHT Design and Evaluation](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-7-MLDHT.md)**
+  - **[RFP-8: Scalability Bounds of P2P Pub/Sub (libp2p floodsub, gossipsub and episub)](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-8-pubsub.md)**
   - (more to be announced, please check back later)  
- 
+
 ### INACTIVE:
   - **[RFP-1: Novel constructions for Proof-of-Replication](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-1-proof-of-replication.md)**
   - **[RFP-2: Novel constructions for Proof-of-Spacetime](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-2-proof-of-spacetime.md)**
@@ -37,7 +39,7 @@ Requests for Proposals are a fairly common method for funding individuals and gr
   - **[RFP-5: Optimize storage and convergence time in causal CmRDTs](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-5-optimized-CmRDT.md)**
   - **[RFP-6: Secret Single-Leader Election (SSLE)](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-6-SSLE.md)**
 
-  
+
 We may reopen inactive RFPs at a later date to encourage explorations of novel directions.
 
 ---
