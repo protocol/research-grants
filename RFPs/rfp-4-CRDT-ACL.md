@@ -4,7 +4,7 @@ Conflict-free replicated data types (CRDTs) provide a framework for creating eve
 
 **Problem Statement:** https://github.com/protocol/research/issues/8
 
-**Application Deadline:** rolling deadline
+**Application Deadline:** ~rolling deadline~ (closed)
 
 **Key Results**
  - Prove that there is an eventually consistent ACL type that guarantees security and, when applied to a CRDT, guarantees safety (where safety and security are defined in the problem statement)
