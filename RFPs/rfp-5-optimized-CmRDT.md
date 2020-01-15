@@ -5,7 +5,7 @@ CRDTs provide a framework for creating eventually consistent data types that can
 
 **Problem Statement:** https://github.com/protocol/research/issues/9
 
-**Application Deadline:** Rolling deadline
+**Application Deadline:** ~rolling deadline~ (closed)
 
 **Objectives & Key Results**
  - **Objective 1**: Improve causal CmRDT convergence time
