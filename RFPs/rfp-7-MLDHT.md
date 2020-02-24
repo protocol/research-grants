@@ -70,6 +70,10 @@ David Dias (@daviddias). We encourage you to reach out to rfp@protocol.ai if you
 
 #### Application Instructions
 
-[RFP Application Instructions](https://github.com/protocol/research-RFPs/blob/master/RFP-application-instructions.md)
+To submit a proposal, please visit [this link](https://protocollabs.smapply.io/prog/rfp-7/). Note that this is a text-box submission form, and PDF attachment is not possible. 
+
+The application consists of three forms in the left sidebar. You will need to complete each form individually, after which you will be able to press the submit button for that form and proceed to the next. Individual instructions are givcen for each form.
+
+You may allow additional individuals access to the form by using the collaborators feature in the left sidebar. The original form creator will, however, remain the point of contact throughout the application and evaluation process.
 
 **Results are to be released as open source under the [Permissive License Stack](https://protocol.ai/blog/announcing-the-permissive-license-stack/) (Dual License Apache-2 + MIT).**
