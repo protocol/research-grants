@@ -3,7 +3,11 @@
 
 This repository contains offers that Protocol Labs is making or has made to fund research in areas relevant to our core mission of improving the internet.  It is one of the structural research repository described in [research/README.md](https://github.com/protocol/research); please follow that link if you're interested in the organization of the research repositories.
 
-Below is an exhaustive list of of the problems Protocol Labs currently intends to fund.  To submit a proposal for a current RFP, fill out and submit an application at our [RFP program page](https://protocollabs.smapply.io/). If you would like to submit a proposal addressing an unlisted problem, first describe the problem you intend to solve in an issue in [protocol/research](https://github.com/protocol/research/issues), and follow the issue template.  The issue should stimulate discussion and verify that the problem is clearly defined, nontrivial, and important. Then go to the [RFP program page](https://protocollabs.smapply.io/) and apply for RFP-0. Naturally, following these steps does not guarantee that we will fund the proposal.
+Below is an exhaustive list of of the problems Protocol Labs currently intends to fund.  To submit a proposal for a current RFP, fill out and submit an application at our [RFP program page](https://protocollabs.smapply.io/). 
+
+If you would like to submit a proposal addressing an unlisted problem, first describe the problem you intend to solve in an issue in [protocol/research](https://github.com/protocol/research/issues), and follow the issue template.  The issue should stimulate discussion and verify that the problem is clearly defined, nontrivial, and important. Then go to the [RFP program page](https://protocollabs.smapply.io/) and apply for RFP-0. Naturally, following these steps does not guarantee that we will fund the proposal.
+
+Please note that the application form is a text-box submission form and will not accept PDF attachments.
 
 
 ### Maintainer
