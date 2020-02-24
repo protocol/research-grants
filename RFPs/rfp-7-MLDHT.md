@@ -76,4 +76,6 @@ The application consists of three forms in the left sidebar. You will need to co
 
 You may allow additional individuals access to the form by using the collaborators feature in the left sidebar. The original form creator will, however, remain the point of contact throughout the application and evaluation process.
 
+*Proposals are considered and awarded based on individuals objectives. We may choose to fund all objectives within a proposal or limit our funding to those most relevant and promising. Please be clear when describing your proposal's objectives and how you plan to achieve them.*
+
 **Results are to be released as open source under the [Permissive License Stack](https://protocol.ai/blog/announcing-the-permissive-license-stack/) (Dual License Apache-2 + MIT).**
