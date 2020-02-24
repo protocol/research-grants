@@ -7,6 +7,8 @@ Below is an exhaustive list of of the problems Protocol Labs currently intends t
 
 If you would like to submit a proposal addressing an unlisted problem, first describe the problem you intend to solve in an issue in [protocol/research](https://github.com/protocol/research/issues), and follow the issue template.  The issue should stimulate discussion and verify that the problem is clearly defined, nontrivial, and important. Then go to the [RFP program page](https://protocollabs.smapply.io/) and apply for RFP-0. Naturally, following these steps does not guarantee that we will fund the proposal.
 
+*Proposals are considered and awarded in terms of individuals objectives. We may choose to fund all objectives within a proposal or limit our funding to those most relevant and promising. Please be clear when describing your proposal's objectives and how you plan to achieve them.*
+
 Please note that the application form is a text-box submission form and will not accept PDF attachments.
 
 
