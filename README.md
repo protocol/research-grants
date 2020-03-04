@@ -1,9 +1,12 @@
 # Protocol Labs - Research Requests for Proposals (RFPs) and Bounties
 [![](https://img.shields.io/badge/team-research-0f41f4.svg?style=flat-square)](https://github.com/protocol/research)
 
-This repository will contain offers that Protocol Labs is making or has made to fund research in areas relevant to our core mission of improving the internet.  It is one of the structural research repository described in [research/README.md](https://github.com/protocol/research); please follow that link if you're interested in the organization of the research repositories.
+This repository contains offers that Protocol Labs is making or has made to fund research in areas relevant to our core mission of improving the internet.  It is one of the structural research repository described in [research/README.md](https://github.com/protocol/research); please follow that link if you're interested in the organization of the research repositories.
 
-Below is an exhaustive list of of the problems Protocol Labs currently intends to fund.  To submit a proposal addressing an unlisted problem, first describe the problem you intend to solve in an issue in [protocol/research](https://github.com/protocol/research/issues), and follow the issue template.  The issue should stimulate discussion and verify that the problem is clearly defined, nontrivial, and important.  Then follow our [application guidelines](https://github.com/protocol/research-RFPs/blob/master/RFP-application-instructions.md) to submit your solution.  Naturally, even following these steps does not guarantee that we would fund the proposal.
+Below is an exhaustive list of of the problems Protocol Labs currently intends to fund.  To submit a proposal for a current RFP, fill out and submit an application at our [RFP program page](https://protocollabs.smapply.io/). If you would like to submit a proposal addressing an unlisted problem, first open an issue in [protocol/research](https://github.com/protocol/research/issues), and follow the template to describe the problem you intend to solve.  The issue should stimulate discussion and verify that the problem is clearly defined, nontrivial, and important. Then proceed to the [RFP program page](https://protocollabs.smapply.io/) and apply for [RFP-0](https://protocollabs.smapply.io/prog/rfp-0). Naturally, following these steps does not guarantee that we will fund the proposal.
+
+*Proposals are considered and awarded based on individual objectives. We may choose to fund all objectives within a proposal or limit our funding to those most relevant and promising. Please be clear when describing your proposal's objectives and how you plan to achieve them.*
+
 
 ### Maintainer
 
