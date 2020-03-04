@@ -70,6 +70,6 @@ David Dias (@daviddias). We encourage you to reach out to rfp@protocol.ai if you
 
 #### Application Instructions
 
-To submit a proposal, please visit [this link](https://protocollabs.smapply.io/prog/rfp-7/). 
+To access RFP application instructions and submit a proposal, please visit [this link](https://protocollabs.smapply.io/).
 
 **Results are to be released as open source under the [Permissive License Stack](https://protocol.ai/blog/announcing-the-permissive-license-stack/) (Dual License Apache-2 + MIT).**
