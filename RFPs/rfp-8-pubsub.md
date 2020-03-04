@@ -81,12 +81,6 @@ David Dias (@daviddias). We encourage you to reach out to rfp@protocol.ai if you
 
 #### Application Instructions
 
-To submit a proposal, please visit [this link](https://protocollabs.smapply.io/prog/rfp-8/). Note that this is a text-box submission process, and PDF attachment is not possible. 
-
-The application consists of three forms in the left sidebar. You will need to complete each individually, after which you will need to press the submit button and proceed to the next. Individual instructions are given for each form.
-
-You may allow additional individuals access to the form by using the collaborators feature in the left sidebar. The original form creator will, however, remain the point of contact throughout the application and evaluation process.
-
-*Proposals are considered and awarded based on individual objectives. We may choose to fund all objectives within a proposal or limit our funding to those most relevant and promising. Please be clear when describing your proposal's objectives and how you plan to achieve them.*
+To access RFP application instructions and submit a proposal, please visit [this link](https://protocollabs.smapply.io/).
 
 **Results are to be released as open source under the [Permissive License Stack](https://protocol.ai/blog/announcing-the-permissive-license-stack/) (Dual License Apache-2 + MIT).**
