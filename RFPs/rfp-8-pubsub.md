@@ -54,7 +54,7 @@ Use cases of interest (10 ≤ n, m ≤ 10M):
 
 #### Application Deadline
 
-Rolling: we will be reviewing applications in batches corresponding to calendar months. The call will close on 31 March 2020 or earlier if sufficient grants are awarded.
+Rolling: we will be reviewing applications in batches corresponding to calendar months. The call will close on 31 June 2020 or earlier if awarded.
 
 
 #### Recommended team
@@ -72,7 +72,7 @@ Up to $100,000 per proposal. Possibility of up to 20% paid in FIL.
 
 #### Payout schedule
 
-60 % upon award and 40% on completion (adjustable to accommodate institutional requirements).
+60% upon award and 40% on completion (adjustable to accommodate institutional requirements).
 
 
 #### Point of contact
