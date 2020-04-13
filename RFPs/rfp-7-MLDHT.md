@@ -35,6 +35,9 @@ In this RFP, we are looking for approaches that target the structure of the Dist
         1. Significant network size variation, with weekly cycles between 150K and 250K nodes.
         2. Large fraction (75%+) of nodes that undiable due to NAT/Firewalls.
         3. A 100GB file transforms into a graph of roughly 1 million blocks when added to IPFS. For random-access to be possible, that means that roughly 2 million provides (DHT puts) need to happen every time interval (default: 24 hours).
+* **Objective 3**: Validation in testbed environment
+    1. Develop a prototype Go implementation that integrates into the go-libp2p Implementation.
+Evaluate performance in a testbed environment (provided by Protocol Labs). The testbed is capable of simulating/emulating realistic network conditions and with configurable network size.
 
 
 ## RFP details
