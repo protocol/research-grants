@@ -22,7 +22,7 @@ In this RFP, we are looking for approaches that target the structure of the Dist
 
 * **Objective 1:** Design of multi-level DHT
     1. Review related literature, create a short survey and identify solutions from which it is worth borrowing concepts.
-    2. Design overall system architecture adapted for the case of libp2p (and IPFS as a use case.
+    2. Design overall system architecture adapted for the case of libp2p (and IPFS as a use case).
 * **Objective 2:** Performance and scalability evaluation
     1. Demonstrate the performance of your design through formal methods, calculations (e.g. Python Notebook, ObservableHQ, etc.), or a simulation environment (e.g. PeerSim, ns-3) with regard to the following metrics:
         1. Look-up time (from when a node first seeks for a piece of content to when it finds a provider).
