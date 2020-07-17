@@ -54,7 +54,7 @@ Use cases of interest (10 ≤ n, m ≤ 10M):
 
 #### Application Deadline
 
-Rolling: we will be reviewing applications in batches corresponding to calendar months. The call will close on 31 June 2020 or earlier if awarded.
+Rolling: we will be reviewing applications in batches corresponding to calendar months. The call will close on 30 June 2020 or earlier if awarded.
 
 
 #### Recommended team
