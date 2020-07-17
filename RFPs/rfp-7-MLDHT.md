@@ -45,7 +45,7 @@ In this RFP, we are looking for approaches that target the structure of the Dist
 
 #### Application Deadline
 
-Rolling: we will be reviewing applications in batches corresponding to calendar months. The call will close on 31 June 2020 or earlier if awarded.
+Rolling: we will be reviewing applications in batches corresponding to calendar months. The call will close on 30 June 2020 or earlier if awarded.
 
 
 #### Recommended team
