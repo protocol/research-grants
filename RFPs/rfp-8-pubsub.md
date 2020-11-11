@@ -33,29 +33,32 @@ Use cases of interest (10 ≤ n, m ≤ 10M):
 
 ## Objectives & Key Results
 
-* **Objective 1:** For one or more of the use cases of interest, perform an evaluation (in a simulated environment using your favourite tool of choice) of the multiple pub/sub implementations (floodsub, gossipsub, and episub) that can:
-    1. Demonstrate the performance of the current design for multiple network sizes (10K, 100K, 1M, 10M).
-    2. Identify what are the scalability limits with regards thresholds of memory usage per peer (e.g. GB of memory), unacceptable delay (e.g. tens to hundreds of milliseconds), resilience to churn and other dimensions. you find relevant for each use case of interest.
-    3. Suggest what are the parts of the algorithm that can be the primary bottlenecks.
-* **Objective 2:** Compare scalability limits against performance metrics through empirical tests
-    1. For the use cases of interest studied in Objective 1, verify (through realistic simulation using the testbed with the actual implementations) that theoretical limits are observed in the implementations of floodsub, gossipsub & episub).
-    2. Report the differences between the Simulations from Objective 1 & the results from Objective 2.a.
-    3. In case of any significant different, investigate and report potential causes.
-* **Objective 3:** Design, develop, and evaluate improvements to the design of floodsub, gossipsub, episub (or the implementation of a new pub/sub algorithm) that can improve performance  for one of the use cases of interest in one or more of the following dimensions:
-    1. **Scalability** - Support a higher number of active nodes in the network without degrading the quality of service.
-    2. **Efficiency** -  Reduce aggregate computational and network load (e.g. CPU, memory, bandwidth overhead) across the network.
-    3. **Load Balancing** - Improve workload distribution so as to minimise inter-node load asymmetry (e.g. CPU, memory, bandwidth).
-    4. **Resiliency** - Support a broader range of node churn rates without compromising the system (e.g. be able to deal with churn from 10% to 80% per hour).
-    5. **Latency** - Achieve lower and more scalable propagation latency (e.g. keep latency below 1 second for up to 1M nodes and below 2 seconds for 5M nodes).
+### `Objective 1:` For one or more of the use cases of interest, perform an evaluation (in a simulated environment using your favourite tool of choice) of the multiple pub/sub implementations (floodsub, gossipsub, and episub) that can:
+
+- 1. Demonstrate the performance of the current design for multiple network sizes (10K, 100K, 1M, 10M).
+- 2. Identify what are the scalability limits with regards thresholds of memory usage per peer (e.g. GB of memory), unacceptable delay (e.g. tens to hundreds of milliseconds), resilience to churn and other dimensions. you find relevant for each use case of interest.
+- 3. Suggest what are the parts of the algorithm that can be the primary bottlenecks.
+
+### `Objective 2:` Compare scalability limits against performance metrics through empirical tests
+
+- 1. For the use cases of interest studied in Objective 1, verify (through realistic simulation using the testbed with the actual implementations) that theoretical limits are observed in the implementations of floodsub, gossipsub & episub).
+- 2. Report the differences between the Simulations from Objective 1 & the results from Objective 2.a.
+- 3. In case of any significant different, investigate and report potential causes.
+
+### `Objective 3:` Design, develop, and evaluate improvements to the design of floodsub, gossipsub, episub (or the implementation of a new pub/sub algorithm) that can improve performance  for one of the use cases of interest in one or more of the following dimensions:
+
+- 1. **Scalability** - Support a higher number of active nodes in the network without degrading the quality of service.
+- 2. **Efficiency** -  Reduce aggregate computational and network load (e.g. CPU, memory, bandwidth overhead) across the network.
+- 3. **Load Balancing** - Improve workload distribution so as to minimise inter-node load asymmetry (e.g. CPU, memory, bandwidth).
+- 4. **Resiliency** - Support a broader range of node churn rates without compromising the system (e.g. be able to deal with churn from 10% to 80% per hour).
+- 5. **Latency** - Achieve lower and more scalable propagation latency (e.g. keep latency below 1 second for up to 1M nodes and below 2 seconds for 5M nodes).
 
 
 ## RFP details
 
-
 #### Application Deadline
 
 Rolling: we will be reviewing applications in batches corresponding to calendar months. The call will close on 30 June 2020 or earlier if awarded.
-
 
 #### Recommended team
 
@@ -64,16 +67,13 @@ Rolling: we will be reviewing applications in batches corresponding to calendar 
 
 We expect the technical depth of the work to be at the PhD level but smaller grants are also available to sponsor MSc level work.
 
-
 #### Award
 
 Up to $100,000 per proposal. Possibility of up to 20% paid in FIL.
 
-
 #### Payout schedule
 
 60% upon award and 40% on completion (adjustable to accommodate institutional requirements).
-
 
 #### Point of contact
 
