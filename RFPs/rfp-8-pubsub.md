@@ -17,11 +17,11 @@ The solutions proposed for this RFP will be addressing our published open proble
 
 ## Scope of this RFP
 
-With this RFP, we are looking for approaches that explore the scalability bounds of the existing pub/sub algorithms within libp2p, i.e. gossipsub and episub. IPFS already has hundreds of thousands of daily users and is expected to grow exponentially to multiple millions. ETH1.0 already has more than 16,000 nodes and when ETH2.0 arrives this number is expected to rise by several orders of magnitude. A thorough evaluation of the scalability performance of the existing protocols or their redesign is essential before they get deployed at those scales.
+With this RFP, we are looking for approaches that explore the scalability bounds of the existing pub/sub algorithms within libp2p, i.e. gossipsub and floodsub. IPFS already has hundreds of thousands of daily users and is expected to grow exponentially to multiple millions. ETH1.0 already has more than 16,000 nodes and when ETH2.0 arrives this number is expected to rise by several orders of magnitude. A thorough evaluation of the scalability performance of the existing protocols or their redesign is essential before they get deployed at those scales.
 
 As such, the goal of this RFP is to answer questions such as:
-* What changes need to be made in order for gossipsub and episub to scale to 10s of millions of users while retaining acceptable performance in terms of message delivery latency?
-* What changes need to be made so that gossipsub and episub can operate efficiently under high rates of network churn (up to 40% per hour)?
+* What changes need to be made in order for gossipsub and floodsub to scale to 10s of millions of users while retaining acceptable performance in terms of message delivery latency?
+* What changes need to be made so that gossipsub and floodsub can operate efficiently under high rates of network churn (up to 40% per hour)?
 * What are the latency guarantees that we can expect as the system scales from hundreds of nodes to millions of nodes?
 
 Use cases of interest (10 ≤ n, m ≤ 10M):
@@ -41,11 +41,11 @@ Use cases of interest (10 ≤ n, m ≤ 10M):
 
 ### `Objective 2:` Compare scalability limits against performance metrics through empirical tests
 
-- 1. For the use cases of interest studied in Objective 1, verify (through realistic simulation using the testbed with the actual implementations) that theoretical limits are observed in the implementations of floodsub, gossipsub & episub).
+- 1. For the use cases of interest studied in Objective 1, verify (through realistic simulation using the testbed with the actual implementations) that theoretical limits are observed in the implementations of floodsub, gossipsub & floodsub).
 - 2. Report the differences between the Simulations from Objective 1 & the results from Objective 2.a.
 - 3. In case of any significant different, investigate and report potential causes.
 
-### `Objective 3:` Design, develop, and evaluate improvements to the design of floodsub, gossipsub, episub (or the implementation of a new pub/sub algorithm) that can improve performance  for one of the use cases of interest in one or more of the following dimensions:
+### `Objective 3:` Design, develop, and evaluate improvements to the design of floodsub, gossipsub, floodsub (or the implementation of a new pub/sub algorithm) that can improve performance  for one of the use cases of interest in one or more of the following dimensions:
 
 - 1. **Scalability** - Support a higher number of active nodes in the network without degrading the quality of service.
 - 2. **Efficiency** -  Reduce aggregate computational and network load (e.g. CPU, memory, bandwidth overhead) across the network.
