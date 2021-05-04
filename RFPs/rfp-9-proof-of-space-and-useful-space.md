@@ -108,6 +108,11 @@ institutional requirements).
 encourage you to reach out to **rfp@protocol.ai** if you are considering
 applying or have any questions.
 
+### **Applications** 
+
+Submit your proposal using our application management system at 
+https://grants.protocol.ai/.
+
 **Results are to be released as open source under the** **[Permissive
 License
 Stack](https://protocol.ai/blog/announcing-the-permissive-license-stack/)
