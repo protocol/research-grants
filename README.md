@@ -30,7 +30,7 @@ Similar to a bug bounty program, we may occasionally post problems in this repos
 Requests for Proposals are a fairly common method for funding individuals and groups to solve problems.  In our case, we may have a list of self-contained problems that likely require a sufficiently large time commitment that funding will be often provided at intervals or checkpoints, rather than upon completion.  These would have the goal of funding researchers to develop or find novel results on these topics.  RFPs are posted as issues in this repo, and a summary of active RFPs may be found below:
 
 ### ACTIVE:
-  - (more to be announced, please check back later)  
+  - **[RFP-9: Proof of Space and Useful Space](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-9-proof-of-space-and-useful-space.md)**
 
 ### INACTIVE:
   - **[RFP-1: Novel constructions for Proof-of-Replication](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-1-proof-of-replication.md)**
