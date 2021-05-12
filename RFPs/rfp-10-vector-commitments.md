@@ -53,9 +53,8 @@ earlier if awarded.
 
 ### **Recommended team**
 
-We expect the technical depth of the work to be at the level of a PhD
-student. We suggest that a team of one PI and one PhD part time for 9-12
-months or one PI and one postdoctoral researcher part time for 6-8
+We expect the technical depth of the work to be at the level of a researcher in the field or a graduate
+student. We suggest that a team of one PI and one PhD part time for 9-12 months or one PI and one postdoctoral researcher part time for 6-8
 months is appropriate for most problems.
 
 Applicants may build a collaborative project with researchers from
