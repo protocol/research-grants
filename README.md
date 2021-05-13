@@ -1,4 +1,4 @@
-# Protocol Labs - Research Requests for Proposals (RFPs) and Bounties
+# Protocol Labs Research - Requests for Proposals (RFPs) and Grants
 [![](https://img.shields.io/badge/team-research-0f41f4.svg?style=flat-square)](https://github.com/protocol/research)
 
 This repository contains offers that Protocol Labs is making or has made to fund research in areas relevant to our core mission of improving the internet.  It is one of the structural research repository described in [research/README.md](https://github.com/protocol/research); please follow that link if you're interested in the organization of the research repositories.
@@ -18,15 +18,7 @@ This repo contains Requests For Proposals (RFPs) for the Grant program, which is
 
  - Subscribe to this repo if you want to be updated about potential funding opportunities
 
----
-<!-- ## Bounties
-Similar to a bug bounty program, we may occasionally post problems in this repository with an associated reward to be paid on delivery of a solution.  A list of active bounties may be found below
-
- - **(none at present, please check back later)**
--->
-
-
-## RFPs and Grants
+## RFPs
 Requests for Proposals are a fairly common method for funding individuals and groups to solve problems.  In our case, we may have a list of self-contained problems that likely require a sufficiently large time commitment that funding will be often provided at intervals or checkpoints, rather than upon completion.  These would have the goal of funding researchers to develop or find novel results on these topics.  RFPs are posted as issues in this repo, and a summary of active RFPs may be found below:
 
 ### ACTIVE:
