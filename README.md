@@ -8,10 +8,6 @@ Below is an exhaustive list of of the problems Protocol Labs currently intends t
 *Proposals are considered and awarded based on individual objectives. We may choose to fund all objectives within a proposal or limit our funding to those most relevant and promising. Please be clear when describing your proposal's objectives and how you plan to achieve them.*
 
 
-### Maintainer
-
-[Evan Miyazono](https://github.com/miyazono)
-
 # What's in This Repo?
 
 This repo contains Requests For Proposals (RFPs) for the Grant program, which is elaborated below.
