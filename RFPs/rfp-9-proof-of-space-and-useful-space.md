@@ -1,3 +1,5 @@
+# Proof of Space and Useful Space
+
 ## **Background**
 
 A **Proof of Space** is a protocol that allows a prover to convince a
