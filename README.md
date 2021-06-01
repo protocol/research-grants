@@ -19,6 +19,7 @@ Requests for Proposals are a fairly common method for funding individuals and gr
 
 ### ACTIVE:
   - **[RFP-9: Proof of Space and Useful Space](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-9-proof-of-space-and-useful-space.md)**
+  - **[RFP-10: Vector Commitments](https://github.com/protocol/research-grants/blob/master/RFPs/rfp-10-vector-commitments.md)** 
 
 ### INACTIVE:
   - **[RFP-1: Novel constructions for Proof-of-Replication](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-1-proof-of-replication.md)**
