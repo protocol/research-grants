@@ -1,3 +1,5 @@
+# Vector Commitments
+
 ## **Background**
 
 A **Vector commitment** (VC), first defined by [Catalano and Fiore](https://eprint.iacr.org/2011/495.pdf), allows one to commit to a sequence of values and later on reveal (open) one or many values at a specific position and prove the opening consistent with the initial commitment. Vector commitments are used to trade off storage (all values in a vector vs. one commitment) for bandwidth (taken up to reveal values and prove them). This means that the commitment and the proofs of opening should have a reduced size.
