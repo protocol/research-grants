@@ -1,3 +1,5 @@
+# RFP-009: Proof of Space and Useful Space
+
 ## **Background**
 
 A **Proof of Space** is a protocol that allows a prover to convince a
@@ -105,13 +107,13 @@ institutional requirements).
 ### **Point of contact**
 
 **Irene Giacomelli (@irenegia) and Luca Nizzardo (@lucaniz)**. We
-encourage you to reach out to **rfp@protocol.ai** if you are considering
+encourage you to reach out to **research-grants@protocol.ai** if you are considering
 applying or have any questions.
 
 
-### **Applications** 
+### **Applications**
 
-Submit your proposal using our application management system at 
+Submit your proposal using our application management system at
 https://grants.protocol.ai/.
 
 **Results are to be released as open source under the** **[Permissive

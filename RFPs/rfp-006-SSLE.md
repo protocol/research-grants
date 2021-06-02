@@ -1,8 +1,8 @@
-# Secret Single-Leader Election (SSLE)
+# RFP-006: Secret Single-Leader Election (SSLE)
 
 ## Brief description
 
-A Secret Single-Leader Election (SSLE) for a given clock blockchain round `r` is a function that *fairly* and *secretly* selects a single leader from a known set of participants. Only when the selected participant proposes a block for round `r` will that miner reveal itself to other protocol participants as the verifiable leader for the block at round `r`. 
+A Secret Single-Leader Election (SSLE) for a given clock blockchain round `r` is a function that *fairly* and *secretly* selects a single leader from a known set of participants. Only when the selected participant proposes a block for round `r` will that miner reveal itself to other protocol participants as the verifiable leader for the block at round `r`.
 
 In the context of Filecoin, SSLE selects a block leader from a weighted set of miners where the probability that a miner is selected is proportional to their power in the Filecoin Power Table. An SSLE protocol would elect exactly one individual as leader in a way that no one (eavesdroppers and other participants in the protocol) can tell who was elected other than the leader. Then, once the leader announces the next block, the validity of the election can be verified by anyone. Filecoin currently uses an alternative consensus mechanism, Expected Consensus (EC). For a given round `r`, EC facilitates a secret election where on expectation there is one leader (implying that zero or multiple leaders may also be elected in any round). SSLE will be an evolutionary improvement to EC.
 
@@ -65,7 +65,7 @@ Many consensus protocols in the literature, such as `Snow White`, `Algorand,` `O
 
 - `Snow White` does not guarantee a single leader in a given round.
 
-- `Algorand` does not canonically elect a single leader and is near the limit of communication complexity. 
+- `Algorand` does not canonically elect a single leader and is near the limit of communication complexity.
 
 - `Ouroboros` elections are not secret.
 
@@ -91,7 +91,7 @@ MPC methods often scale poorly with the number of participants.
 
 ### High-Level Example Protocol with Functional Encryption
 
-Suppose there exists some functional encryption scheme with a trusted setup, 
+Suppose there exists some functional encryption scheme with a trusted setup,
 `Fe(seed, {miners}) = E_winner`
 Where the trusted setup results in a public key associated with `Fe`. `Fe` takes a per-block `seed` and weighted list of miners as input. `Fe` outputs an encrypted ticket which the winner will use to prove that they are the elected leader for a specific block. In this construction,  `Fe` would randomly select a winner from `{miners}` and subsequently encrypt a signature over the winners public key,
     `E_sk(Sign_Fe(pk_winner))`
@@ -137,7 +137,5 @@ Depending on how `Fe` is constructed, this could lead to significant on-chain st
 **Award:** Up to $200,000 (USD) per grant with up to 20% payable in Filecoin.
 
 **Payout schedule:** Award winners receive the majority of the disbursement shortly after selection, with the remainder presented upon completion of the work.
-
-**Application Instructions**: [RFP Application Instructions](https://github.com/protocol/research-RFPs/blob/master/RFP-application-instructions.md)
 
 **Results are to be released as open source under MIT license**

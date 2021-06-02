@@ -1,4 +1,4 @@
-# RFP-2: Novel constructions for Proof-of-Spacetime
+# RFP-002: Novel constructions for Proof-of-Spacetime
 
 **Brief description:**
 We aim at stimulating the creation of novel constructions for Proof-of-Spacetime, described in the [Filecoin whitepaper](https://filecoin.io/filecoin.pdf), by offering grants to solve any of the open problems listed in the problem statement below.
@@ -18,7 +18,5 @@ We aim at stimulating the creation of novel constructions for Proof-of-Spacetime
 **Award:** Up to $200,000 (USD) per grant with up to 20% payable in Filecoin
 
 **Payout schedule:** Award winners receive the full disbursement shortly after selection
-
-**Application Instructions**: [RFP Application Instructions](https://github.com/protocol/research-RFPs/blob/master/RFP-application-instructions.md)
 
 **Results are to be released as open source under MIT license**

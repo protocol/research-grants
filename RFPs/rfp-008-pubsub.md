@@ -1,4 +1,4 @@
-# Scalability Bounds of P2P Pub/Sub (libp2p floodsub, gossipsub and episub)
+# RFP-008: Scalability Bounds of P2P Pub/Sub (libp2p floodsub, gossipsub and episub)
 
 
 ## Background
