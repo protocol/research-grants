@@ -1,4 +1,4 @@
-# RFP-3: Single Secret Leader Election
+# RFP-003: Single Secret Leader Election
 
 **Brief description:**
 We aim to improve the original Leader Election protocol described in the [Filecoin whitepaper](https://filecoin.io/filecoin.pdf) by offering grants to ensure that all desired properties are provided by an alternative election mechanism that preserves all desired properties, but also elects exactly one leader per epoch.
@@ -20,7 +20,5 @@ We aim to improve the original Leader Election protocol described in the [Fileco
 **Award:** Up to $200,000 (USD) per grant with up to 20% payable in Filecoin
 
 **Payout schedule:** Award winners receive the full disbursement shortly after selection
-
-**Application Instructions**: [RFP Application Instructions](https://github.com/protocol/research-RFPs/blob/master/RFP-application-instructions.md)
 
 **Results are to be released as open source under MIT license**

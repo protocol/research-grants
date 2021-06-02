@@ -1,4 +1,4 @@
-# Vector Commitments
+# RFP-010: Vector Commitments
 
 ## **Background**
 
@@ -16,7 +16,7 @@ The solutions proposed for this RFP will address our published open problems on 
 The goal of this RFP is to stimulate improvements to the Vector Commitment constructions used in Filecoin and other Web3 protocols. We are funding research that addresses any of the **five Open Problems** listed in the above [**Open Problem
 Statement**](https://github.com/protocol/CryptoNetLab/blob/main/open_problems/Better_Vector_Commitments.md):
 
--   **Problem 1:** Augmented Aggregation for SVC 
+-   **Problem 1:** Augmented Aggregation for SVC
 -   **Problem 2:** Functional Vector Commitments
 -   **Problem 3:** Improving Merkle Tree Openings
 -   **Problem 4:** Updatability Property for SVC
@@ -54,7 +54,7 @@ Up to $50,000 USD per proposal. Possibility of up to 20% paid in FIL.
 **Anca Nitulescu (@ninitrava) and Luca Nizzardo (@lucaniz)**. We encourage you to reach out to **research-grants@protocol.ai** if you are considering applying or have any questions.
 
 
-### **Applications** 
+### **Applications**
 
 Submit your proposal using our application management system at  https://grants.protocol.ai/.
 
