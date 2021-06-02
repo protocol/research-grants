@@ -107,7 +107,7 @@ institutional requirements).
 ### **Point of contact**
 
 **Irene Giacomelli (@irenegia) and Luca Nizzardo (@lucaniz)**. We
-encourage you to reach out to **rfp@protocol.ai** if you are considering
+encourage you to reach out to **research-grants@protocol.ai** if you are considering
 applying or have any questions.
 
 
