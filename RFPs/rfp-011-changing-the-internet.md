@@ -51,6 +51,7 @@ Commensurate with team and scope, up to $200k USD. Possibility of up to 20% paid
 60% upon award and 40% on completion (adjustable to accommodate institutional requirements).
 
 ### Point of Contact
+**@KarolaKirsanow**  
 We encourage you to reach out to research-grants@protocol.ai if you are considering applying or have any questions.
 
 ### Applications
