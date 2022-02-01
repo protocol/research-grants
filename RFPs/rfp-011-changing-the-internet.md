@@ -22,14 +22,14 @@ The solutions proposed in response to this RFP should address one or more of the
 
 The networking research community has made many advances in the last 3 decades along the lines of this RFP. Here we briefly note several examples of such research to provide context, but do not view any specific paper as prescriptive or specifically the kind of research we are looking to be proposed in response to this RFP.
 
-- [Deployment and scalability of an inter-domain multi-path routing infrastructure](https://doi.org/10.1145/3485983.3494862), ACM CoNEXT ‘21
-- [Enabling a permanent revolution in internet architecture](https://doi.org/10.1145/3341302.3342075), ACM SIGCOMM ‘19
-- [Balancing accountability and privacy in the network](https://doi.org/10.1145/2740070.2626306), ACM SIGCOMM ‘14
-- [XIA: architecting a more trustworthy and evolvable internet](https://doi.org/10.1145/2656877.2656885), ACM SIGCOMM CCR ‘14
-- [Networking is IPC: a guiding principle to a better internet](https://doi.org/10.1145/1544012.1544079), ACM CoNEXT ‘08
-- [Plutarch: an argument for network pluralism](https://doi.org/10.1145/972426.944763), ACM SIGCOMM FDNA ‘03
-- [Tussle in cyberspace: defining tomorrow's internet](https://doi.org/10.1145/633025.633059), ACM SIGCOMM ‘02
-- [Distributed algorithmic mechanism design: Recent results and future directions](https://doi.org/10.1145/570810.570812), ACM DIALM ‘02
+- [*Deployment and scalability of an inter-domain multi-path routing infrastructure*](https://doi.org/10.1145/3485983.3494862), ACM CoNEXT ‘21
+- [*Enabling a permanent revolution in internet architecture*](https://doi.org/10.1145/3341302.3342075), ACM SIGCOMM ‘19
+- [*Balancing accountability and privacy in the network*](https://doi.org/10.1145/2740070.2626306), ACM SIGCOMM ‘14
+- [*XIA: architecting a more trustworthy and evolvable internet*](https://doi.org/10.1145/2656877.2656885), ACM SIGCOMM CCR ‘14
+- [*Networking is IPC: a guiding principle to a better internet*](https://doi.org/10.1145/1544012.1544079), ACM CoNEXT ‘08
+- [*Plutarch: an argument for network pluralism*](https://doi.org/10.1145/972426.944763), ACM SIGCOMM FDNA ‘03
+- [*Tussle in cyberspace: defining tomorrow's internet*](https://doi.org/10.1145/633025.633059), ACM SIGCOMM ‘02
+- [*Distributed algorithmic mechanism design: Recent results and future directions*](https://doi.org/10.1145/570810.570812), ACM DIALM ‘02
 
 ## Scope of this RFP
 
