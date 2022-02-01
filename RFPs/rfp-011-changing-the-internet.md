@@ -42,7 +42,7 @@ Successful projects will result in a deployable prototype or prototypes that can
 **Rolling**: we will be reviewing applications in batches corresponding to calendar months. The call will close on **August 30, 2022** or earlier if awarded.
 
 ### Recommended Team
-Likely team size will range from 1-2 PIs/Co-PIs and 1-4 students/researchers, as justified in project scope description.
+Likely team size will range from 1-2 PIs/Co-PIs and 1-4 students/researchers, as justified by project scope.
 
 ### Award
 Commensurate with team and scope, up to $200k USD. Possibility of up to 20% paid in FIL.
