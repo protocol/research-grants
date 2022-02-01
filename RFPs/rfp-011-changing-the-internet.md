@@ -6,7 +6,7 @@ The Internet’s core architecture has remained largely unchanged for over 40 ye
 
 ## Problem Statement
 
-The solutions proposed in response to this RFP should address one or more of the five core challenges identified below. Changing the Internet is a broad topic, one that cannot be easily summarized in a short statement, nor can the possible solutions be described in advance.
+The solutions proposed in response to this RFP should address one or more of the five core challenges identified below. Changing the Internet is a broad topic, one that cannot be easily summarized in a short statement, nor can the possible solutions be specified in advance.
 
 1. **Incentives for New Infrastructure**. The Internet currently consists of a complex mix of large-scale infrastructure providers. Many of these companies are legacies of past national / centralized telecommunications efforts, and are slow to innovate today. However, decentralized or bottom-up approaches to infrastructure deployment have struggled in part due to misaligned incentives, high barriers to entry (cost, business relationships, pre-existing infrastructure, regulation, etc.), and a lack of architectural primitives to enable their use. We call for research that proposes new incentive mechanisms for the deployment of any types of Internet infrastructure outside of existing players, where infrastructure reflects the physical deployment of resources at any layer of the stack, from the physical infrastructure that transports bits to the compute, storage, and networking facilities that enable services.
 
