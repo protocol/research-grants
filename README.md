@@ -18,8 +18,7 @@ This repo contains Requests For Proposals (RFPs) for the Grant program, which is
 Requests for Proposals are a fairly common method for funding individuals and groups to solve problems.  In our case, we may have a list of self-contained problems that likely require a sufficiently large time commitment that funding will be often provided at intervals or checkpoints, rather than upon completion.  These would have the goal of funding researchers to develop or find novel results on these topics.  RFPs are posted as issues in this repo, and a summary of active RFPs may be found below:
 
 ### ACTIVE:
-  - **[RFP-009: Proof of Space and Useful Space](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-009-proof-of-space-and-useful-space.md)**
-  - **[RFP-010: Vector Commitments](https://github.com/protocol/research-grants/blob/master/RFPs/rfp-010-vector-commitments.md)**
+  - **[RFP-011: Changing the Internet](https://github.com/protocol/research-grants/blob/rpf-011/RFPs/rfp-011-changing-the-internet.md)**
 
 ### INACTIVE:
   - **[RFP-001: Novel constructions for Proof-of-Replication](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-001-proof-of-replication.md)**
@@ -30,6 +29,8 @@ Requests for Proposals are a fairly common method for funding individuals and gr
   - **[RFP-006: Secret Single-Leader Election (SSLE)](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-006-SSLE.md)**
   - **[RFP-007: Multi-Level DHT Design and Evaluation](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-007-MLDHT.md)**
   - **[RFP-008: Scalability Bounds of P2P Pub/Sub (libp2p floodsub, gossipsub and episub)](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-008-pubsub.md)**
+  - **[RFP-009: Proof of Space and Useful Space](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-009-proof-of-space-and-useful-space.md)**
+  - **[RFP-010: Vector Commitments](https://github.com/protocol/research-grants/blob/master/RFPs/rfp-010-vector-commitments.md)**
 
 We may reopen inactive RFPs at a later date to encourage explorations of novel directions.
 
