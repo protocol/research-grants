@@ -35,12 +35,12 @@ To update the configuration from $C_i$ to $C_{i+1}$, a transaction from $Q_i$ to
 
 Since we assume that online validators can distinguish an LRA chain, it is enough to have the transaction signed by $t_i$ participants as no honest validators can be fooled into signing an illegitimate transaction. If forks were allowed in the case of an adversary with only $f$ fraction of the power (i.e., outside of LRA forks), this would be more problematic, as two conflicting transactions could then be signed, and we would require at least two-thirds of the participants to sign the transaction, for $f=1/3$ (this could be fixed by considering a block in the past, i.e. one that has been finalized).
 
-In addition to the transfer of coins from $Q_i$ to $Q_{i+1}$, the transaction spent by configuration $C_i$ will have a second output that does not receive any bitcoins and is unspendable but contains an identifier $cid$ used to retrieve the full details of the configuration. This is done using the [$OP\_RETURN$](https://en.bitcoin.it/wiki/OP_RETURN) opcode of Bitcoin that allows storing of extra information in the chain.
+In addition to the transfer of coins from $Q_i$ to $Q_{i+1}$, the transaction spent by configuration $C_i$ will have a second output that does not receive any bitcoins and is unspendable but contains an identifier $cid$ used to retrieve the full details of the configuration. This is done using the [OP\_RETURN](https://en.bitcoin.it/wiki/OP_RETURN) opcode of Bitcoin that allows storing of extra information in the chain.
 
 This identifier is useful when a user does not have access to the right PoS chain (i.e., does not have the correct value for $pk_{i+1}$ and $c$ due to an LRA). In this case, the content identifier $cid$ can be used, together with content-addressable decentralized storage, for example, IPFS (or alternative content-addressable storage implemented on PoS network validators) to retrieve the identities of the nodes in the correct configuration.
 
 The transaction updating the configuration will look as follows:
-$tx_i:Q_i\rightarrow((\textsf{amount},Q_{i+1}),(0,OP\_RETURN=cid))$, meaning that $\textsf{amount}$ is transferred to $Q_{i+1}$ and 0 is transferred to $OP\_RETURN=cid$ (unspendable output).
+$tx_i:Q_i\rightarrow((\textsf{amount},Q_{i+1}),(0,OP\_{RETURN}=cid))$, meaning that $\textsf{amount}$ is transferred to $Q_{i+1}$ and 0 is transferred to $OP\_{RETURN}=cid$ (unspendable output).
 This information is then publicly available.
 
 ## Limitations and open problems
