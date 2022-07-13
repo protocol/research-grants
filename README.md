@@ -66,11 +66,11 @@ This application may be submitted by the applicant or an administrative staff me
 
 Requests for Proposals are a fairly common method for funding individuals and groups to solve problems, and have the goal of funding researchers to develop or find novel results on specific topics. RFPs are posted as issues [in this repo](RFPs/), and a summary of current and past RFPs may be found below:
 
-#### ACTIVE:
+#### Active
   - **[RFP-011: Changing the Internet](RFPs/rfp-011-changing-the-internet.md)**
   - **[RFP-012: Checkpointing Filecoin into Bitcoin](RFPs/rfp-012-checkpointing-fil-into-btc.md)**  
 
-#### INACTIVE:
+#### Inactive
   - **[RFP-001: Novel constructions for Proof-of-Replication](RFPs/rfp-001-proof-of-replication.md)**
   - **[RFP-002: Novel constructions for Proof-of-Spacetime](RFPs/rfp-002-proof-of-spacetime.md)**
   - **[RFP-003: Single Secret Leader Election](RFPs/rfp-003-single-leader-election.md)**
@@ -84,15 +84,16 @@ Requests for Proposals are a fairly common method for funding individuals and gr
 
 ### RFP-X
 
-RFP-X is intended to provide an application path for research projects not otherwise covered (e.g. multi-PI collaborative projects). It is not meant as a way to sidestep the cut-off dates or the fixed amounts of the open grants. We expect RFP-X applications to request customary rates up to the open grant amounts. Applications seen to be abusing RFP-X will be rejected without review. Note that the success rate for RFP-X applications is significantly lower; consider this the path of last-resort.
+RFP-X provides an application path for research projects not otherwise covered (e.g. multi-PI collaborative projects). It is not meant as a way to sidestep the cut-off dates or the fixed amounts of the open grants. We expect RFP-X applications to request customary rates up to the open grant amounts. Applications seen to be abusing RFP-X will be rejected without review. Note that the success rate for RFP-X applications is significantly lower; consider this the path of last-resort.
 
 ## Additional considerations
 
 ### Application process
 
+* Applications will only be accepted via our grant management portal: [grants.protocol.ai](https://grants.protocol.ai/).
 * We intend for our application process to be lightweight. In addition to basic applicant information, we require a short research proposal (max 5 pages), describing the problem and proposed directions (and relating them to our priorities), as well as a proposed timeline with clear milestones. We provide recommended templates for
-  * [Open grants](https://docs.google.com/document/d/e/2PACX-1vQhhVsSPEXEy_VbJtiLYx4RdGQro7VEtgqY-yPxAQfvI_y2XxMduENV4hs3ojqORpiZPKqNHgbgMc7a/pub).
-  * [RFPs](TODO).
+  * [Open grants](https://docs.google.com/document/d/1udJj6NM3-onBN8mXy0A3XDEzaSgv0kHGy-6vNK8iQl0/view)
+  * [RFPs](https://docs.google.com/document/d/1lB6c8XZSbPtiONwdjFm-HN0i4w8hKGSFUc1xPLWU3T4/view)
 * For PhD and Postdoctoral fellowships, we will also ask you for your supervisor’s information, as well as a letter of support, committing to hosting you during the duration of the grant.
 
 ### Award amounts
