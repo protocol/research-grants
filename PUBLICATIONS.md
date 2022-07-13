@@ -1,4 +1,4 @@
-# Co-authored publication support policy
+# Co-authored Publication Support Policy
 
 ## Introduction
 
