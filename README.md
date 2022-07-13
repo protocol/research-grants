@@ -1,7 +1,5 @@
 # Protocol Labs Research Grants
 
-[TOC]
-
 ## Overview
 
 The Protocol Labs Research Grant Program aims to both support collaborative work on problems defined by the broader research community and drive progress on clearly scoped research projects critical to our work at Protocol Labs. We encourage proposals aligned with PL's mission to drive breakthroughs in computing to push humanity forward, and we welcome unique perspectives and diverse backgrounds.
