@@ -96,6 +96,14 @@ RFP-X provides an application path for research projects not otherwise covered (
   * [RFPs](https://docs.google.com/document/d/1lB6c8XZSbPtiONwdjFm-HN0i4w8hKGSFUc1xPLWU3T4/view)
 * For PhD and Postdoctoral fellowships, we will also ask you for your supervisor’s information, as well as a letter of support, committing to hosting you during the duration of the grant.
 
+### Review Process
+
+* We aim to return a decision within eight weeks of the application deadline. Our review process includes two rounds:
+    *  A first formal review, during which applications failing formal checks will be declined and invited to apply in the next cycle. To avoid this outcome, please make sure you fulfill all the requirements when applying.
+    * An in-depth review by a technical committee.
+* At the end of the process, we will provide you with a decision and feedback.
+* In some cases, we may feel the need to request more information or schedule a call with you. We will reach out to the form submitter with any requests.
+
 ### Award Amounts
 
 * The Protocol Labs grants program is available worldwide (except where incompatible with local or US law) and covers a wide range of different systems and institutions.  We believe that great researchers are found in all places and want to contribute to their freedom to choose an institution.
@@ -106,15 +114,11 @@ RFP-X provides an application path for research projects not otherwise covered (
 
 ### Publications
 
-* As a general rule, we do not provide additional funding for publications and conference travel. However, publications co-authored with a Protocol Labs researcher are eligible for funding under our [Co-authored Publication Support Policy](PUBLICATIONS.md), provided basic open-access requirements are met.
+As a general rule, we do not provide additional funding for publications and conference travel. However, publications co-authored with a Protocol Labs researcher are eligible for funding under our [Co-authored Publication Support Policy](PUBLICATIONS.md), provided basic open-access requirements are met.
 
-### Review Process
+### Intellectual Property (IP)
 
-* We aim to return a decision within eight weeks of the application deadline. Our review process includes two rounds:
-    *  A first formal review, during which applications failing formal checks will be declined and invited to apply in the next cycle. To avoid this outcome, please make sure you fulfill all the requirements when applying.
-    * An in-depth review by a technical committee.
-* At the end of the process, we will provide you with a decision and feedback.
-* In some cases, we may feel the need to request more information or schedule a call with you. We will reach out to the form submitter with any requests.
+Protocol Labs does not require any IP transfer as a condition of our funding. However, we require a commitment to release the funded work under appropriate open licenses and unencumbered by IP claims. We strongly recommend the use of the [Permissive License Stack](https://protocol.ai/blog/announcing-the-permissive-license-stack/).
 
 ### FAQ
 
