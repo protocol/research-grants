@@ -67,20 +67,20 @@ This application may be submitted by the applicant or an administrative staff me
 Requests for Proposals are a fairly common method for funding individuals and groups to solve problems, and have the goal of funding researchers to develop or find novel results on specific topics. RFPs are posted as issues [in this repo](RFPs/), and a summary of current and past RFPs may be found below:
 
 #### Active
-  - **[RFP-011: Changing the Internet](RFPs/rfp-011-changing-the-internet.md)**
-  - **[RFP-012: Checkpointing Filecoin into Bitcoin](RFPs/rfp-012-checkpointing-fil-into-btc.md)**  
+  - [RFP-011: Changing the Internet](RFPs/rfp-011-changing-the-internet.md)
+  - [RFP-012: Checkpointing Filecoin into Bitcoin](RFPs/rfp-012-checkpointing-fil-into-btc.md)
 
 #### Inactive
-  - **[RFP-001: Novel constructions for Proof-of-Replication](RFPs/rfp-001-proof-of-replication.md)**
-  - **[RFP-002: Novel constructions for Proof-of-Spacetime](RFPs/rfp-002-proof-of-spacetime.md)**
-  - **[RFP-003: Single Secret Leader Election](RFPs/rfp-003-single-leader-election.md)**
-  - **[RFP-004: Decentralised Access Control in CRDTs](RFPs/rfp-004-CRDT-ACL.md)**
-  - **[RFP-005: Optimize storage and convergence time in causal CmRDTs](RFPs/rfp-005-optimized-CmRDT.md)**
-  - **[RFP-006: Secret Single-Leader Election (SSLE)](RFPs/rfp-006-SSLE.md)**
-  - **[RFP-007: Multi-Level DHT Design and Evaluation](RFPs/rfp-007-MLDHT.md)**
-  - **[RFP-008: Scalability Bounds of P2P Pub/Sub (libp2p floodsub, gossipsub and episub)](RFPs/rfp-008-pubsub.md)**
-  - **[RFP-009: Proof of Space and Useful Space](RFPs/rfp-009-proof-of-space-and-useful-space.md)**
-  - **[RFP-010: Vector Commitments](RFPs/rfp-010-vector-commitments.md)**
+  - [RFP-001: Novel constructions for Proof-of-Replication](RFPs/rfp-001-proof-of-replication.md)
+  - [RFP-002: Novel constructions for Proof-of-Spacetime](RFPs/rfp-002-proof-of-spacetime.md)
+  - [RFP-003: Single Secret Leader Election](RFPs/rfp-003-single-leader-election.md)
+  - [RFP-004: Decentralised Access Control in CRDTs](RFPs/rfp-004-CRDT-ACL.md)
+  - [RFP-005: Optimize storage and convergence time in causal CmRDTs](RFPs/rfp-005-optimized-CmRDT.md)
+  - [RFP-006: Secret Single-Leader Election (SSLE)](RFPs/rfp-006-SSLE.md)
+  - [RFP-007: Multi-Level DHT Design and Evaluation](RFPs/rfp-007-MLDHT.md)
+  - [RFP-008: Scalability Bounds of P2P Pub/Sub (libp2p floodsub, gossipsub and episub)](RFPs/rfp-008-pubsub.md)
+  - [RFP-009: Proof of Space and Useful Space](RFPs/rfp-009-proof-of-space-and-useful-space.md)
+  - [RFP-010: Vector Commitments](RFPs/rfp-010-vector-commitments.md)
 
 ### RFP-X
 
@@ -90,7 +90,7 @@ RFP-X provides an application path for research projects not otherwise covered (
 
 ### Application process
 
-* Applications will only be accepted via our grant management portal: [grants.protocol.ai](https://grants.protocol.ai/).
+* Applications will only be accepted via our grant management portal: **[grants.protocol.ai](https://grants.protocol.ai/)**.
 * We intend for our application process to be lightweight. In addition to basic applicant information, we require a short research proposal (max 5 pages), describing the problem and proposed directions (and relating them to our priorities), as well as a proposed timeline with clear milestones. We provide recommended templates for
   * [Open grants](https://docs.google.com/document/d/1udJj6NM3-onBN8mXy0A3XDEzaSgv0kHGy-6vNK8iQl0/view)
   * [RFPs](https://docs.google.com/document/d/1lB6c8XZSbPtiONwdjFm-HN0i4w8hKGSFUc1xPLWU3T4/view)
