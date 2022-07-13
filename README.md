@@ -7,13 +7,13 @@ The Protocol Labs Research Grant Program aims to both support collaborative work
 ## Funding Instruments
 
 Protocol Labs Research funds three broad categories of grants:
-1. Open researcher-centric grants intended to support researchers pursuing topics of interest to Protocol Labs. These include:
+1. Open research grants, intended to support researchers pursuing topics of interest to Protocol Labs. These include:
     * PhD Fellowships
     * Postdoctoral Fellowships
     * Faculty Summer Research Grants
     * Faculty Research Sabbatical Awards
-2. Topic-specific Requests for Proposals (RFPs) designed to fund goal-driven research in response to specific open problems defined by Protocol Labs (PL). RFPs are posted intermittently based on need and readiness of our research labs to support these collaborations.
-3. A wildcard Request for Proposals, [RFP-X](https://grants.protocol.ai/prog/rfp-000_open_rfp/), which is an open call to fund research proposed by the applicant where funding from one of our other grant structures does not readily apply. Note that we have a strong preference for funding via the open grants framework, and **RFP-X applications that could be handled within the existing framework will be rejected without review.**
+2. Topic-specific Requests for Proposals (RFPs), designed to fund goal-driven research in response to specific open problems defined by Protocol Labs (PL). RFPs are posted intermittently based on need and readiness of our research labs to support these collaborations.
+3. A wildcard Request for Proposals, [RFP-X](https://grants.protocol.ai/prog/rfp-000_open_rfp/), by which we fund research proposed by applicants where funding from one of our other grant structures does not readily apply. Note that we have a strong preference for funding via the open grants framework, and **RFP-X applications that could be handled within the existing framework will be rejected without review.**
 
 Evaluation of applications for the open grants will occur in quarterly rounds. Decisions will normally be made and communicated to applicants within eight weeks of these submission deadlines. Evaluation for RFPs takes place according to the timeline in the call. RFP-X applications are evaluated year-round but usually have longer decision times.
 
