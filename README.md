@@ -4,7 +4,7 @@
 
 The Protocol Labs Research Grant Program aims to both support collaborative work on problems defined by the broader research community and drive progress on clearly scoped research projects critical to our work at Protocol Labs. We encourage proposals aligned with PL's mission to drive breakthroughs in computing to push humanity forward, and we welcome unique perspectives and diverse backgrounds.
 
-## Funding Instruments
+## Funding instruments
 
 Protocol Labs Research funds three broad categories of grants:
 1. Open research grants, intended to support researchers pursuing topics of interest to Protocol Labs. These include:
@@ -86,9 +86,9 @@ Requests for Proposals are a fairly common method for funding individuals and gr
 
 RFP-X provides an application path for research projects not otherwise covered (e.g. multi-PI collaborative projects). It is not meant as a way to sidestep the cut-off dates or the fixed amounts of the open grants. We expect RFP-X applications to request customary rates up to the open grant amounts. Applications seen to be abusing RFP-X will be rejected without review. Note that the success rate for RFP-X applications is significantly lower; consider this the path of last-resort.
 
-## Additional Considerations
+## Additional considerations
 
-### Application Process
+### Application process
 
 * Applications will only be accepted via our grant management portal: **[grants.protocol.ai](https://grants.protocol.ai/)**.
 * We intend for our application process to be lightweight. In addition to basic applicant information, we require a short research proposal (max 5 pages), describing the problem and proposed directions (and relating them to our priorities), as well as a proposed timeline with clear milestones. We provide recommended templates for:
@@ -96,7 +96,7 @@ RFP-X provides an application path for research projects not otherwise covered (
   * [RFPs](https://docs.google.com/document/d/1lB6c8XZSbPtiONwdjFm-HN0i4w8hKGSFUc1xPLWU3T4/view)
 * For PhD and Postdoctoral fellowships, we will also ask you for your supervisor’s information, as well as a letter of support, committing to hosting you during the duration of the grant.
 
-### Review Process
+### Review process
 
 * We aim to return a decision within eight weeks of the application deadline. Our review process includes two rounds:
     *  A first formal review, during which applications failing formal checks will be declined and invited to apply in the next cycle. To avoid this outcome, please make sure you fulfill all the requirements when applying.
@@ -104,7 +104,7 @@ RFP-X provides an application path for research projects not otherwise covered (
 * At the end of the process, we will provide you with a decision and feedback.
 * In some cases, we may feel the need to request more information or schedule a call with you. We will reach out to the form submitter with any requests.
 
-### Award Amounts
+### Award amounts
 
 * The Protocol Labs grants program is available worldwide (except where incompatible with local or US law) and covers a wide range of different systems and institutions.  We believe that great researchers are found in all places and want to contribute to their freedom to choose an institution.
 * Our grants are generally disbursed as unrestricted gifts, which are, in most cases, exempt from overhead or subject to the lowest overhead rate; if charged, these shall be deducted from the award as PL will not top-up funding amounts to cover overhead.
@@ -116,7 +116,7 @@ RFP-X provides an application path for research projects not otherwise covered (
 
 As a general rule, we do not provide additional funding for publications and conference travel. However, publications co-authored with a Protocol Labs researcher are eligible for funding under our [Co-authored Publication Support Policy](PUBLICATIONS.md), provided basic open-access requirements are met.
 
-### Intellectual Property (IP)
+### Intellectual property (IP)
 
 Protocol Labs does not require any IP transfer as a condition of our funding. However, we require a commitment to release the funded work under appropriate open licenses and unencumbered by IP claims. We strongly recommend the use of the [Permissive License Stack](https://protocol.ai/blog/announcing-the-permissive-license-stack/).
 

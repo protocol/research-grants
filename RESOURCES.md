@@ -1,4 +1,4 @@
-# Other Resources
+# Other resources
 
 ## Alternative grant programs
 

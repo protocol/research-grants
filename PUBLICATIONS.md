@@ -1,4 +1,4 @@
-# Co-authored Publication Support Policy
+# Co-Authored Publication Support Policy
 
 ## Introduction
 
@@ -22,7 +22,7 @@ Publication in Diamond/Platinum OA venues, requiring no payments by either autho
 
 Chapters in books listed in [DOAB](https://www.doabooks.org/) are covered under the same guidelines as journal articles.
 
-## Language editing
+## Scientific editing
 
 We provide a no-charge paper editing service to co-authored publications. Papers may be submitted for review and editing prior to initial submission, prior to camera-ready submission, or both. Preprints and technical reports will also be reviewed on request.
 
