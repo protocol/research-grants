@@ -5,10 +5,10 @@
 This policy covers peer-reviewed publications in reputable scientific or academic journals and conferences, (co-)authored by a PL employee (with a PL affiliation) and an external collaborator. It does not cover talks at non-scientific conferences (e.g. community events) or conference attendance not associated with a publication.
 
 For a publication authored by an external party to be covered under this policy, the following cumulative requirements have to be met:
-* at least one PL employee is a co-author of the publication
-* the publication acknowledges PL for the financial support (if support was only provided for the publication, a simple note suffices, e.g. "Protocol Labs provided financial support for presenting this conference paper")
-* in the case of conferences, the PL logo is included in the slide deck and displayed similarly to any other affiliation logos
-* In the case of conferences, only one external collaborator per publication can receive attendance support
+  * At least one PL employee is a co-author of the publication
+  * The publication acknowledges PL for the financial support (if support was only provided for the publication, a simple note suffices, e.g. "Protocol Labs provided financial support for presenting this conference paper")
+  * In the case of conferences, the PL logo is included in the slide deck and displayed similarly to any other affiliation logos
+  * In the case of conferences, only one external collaborator per publication can receive attendance support
 
 ## Open access
 

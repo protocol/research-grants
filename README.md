@@ -91,7 +91,7 @@ RFP-X provides an application path for research projects not otherwise covered (
 ### Application Process
 
 * Applications will only be accepted via our grant management portal: **[grants.protocol.ai](https://grants.protocol.ai/)**.
-* We intend for our application process to be lightweight. In addition to basic applicant information, we require a short research proposal (max 5 pages), describing the problem and proposed directions (and relating them to our priorities), as well as a proposed timeline with clear milestones. We provide recommended templates for
+* We intend for our application process to be lightweight. In addition to basic applicant information, we require a short research proposal (max 5 pages), describing the problem and proposed directions (and relating them to our priorities), as well as a proposed timeline with clear milestones. We provide recommended templates for:
   * [Open grants](https://docs.google.com/document/d/1udJj6NM3-onBN8mXy0A3XDEzaSgv0kHGy-6vNK8iQl0/view)
   * [RFPs](https://docs.google.com/document/d/1lB6c8XZSbPtiONwdjFm-HN0i4w8hKGSFUc1xPLWU3T4/view)
 * For PhD and Postdoctoral fellowships, we will also ask you for your supervisor’s information, as well as a letter of support, committing to hosting you during the duration of the grant.
