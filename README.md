@@ -84,7 +84,7 @@ Requests for Proposals are a fairly common method for funding individuals and gr
 
 ### RFP-X
 
-RFP-X provides an application path for research projects not otherwise covered (e.g. multi-PI collaborative projects). It is not meant as a way to sidestep the cut-off dates or the fixed amounts of the open grants. We expect RFP-X applications to request customary rates up to the open grant amounts. Applications seen to be abusing RFP-X will be rejected without review. Note that the success rate for RFP-X applications is significantly lower; consider this the path of last-resort.
+RFP-X provides an application path for research projects not otherwise covered (e.g. multi-PI collaborative projects). It is not meant as a way to sidestep the cut-off dates or the fixed amounts of the open grants. We expect RFP-X applications to request customary rates up to the open grant amounts. Applications seen to be abusing RFP-X will be rejected without review. Note that the success rate for RFP-X applications is significantly lower; consider this the path of last resort.
 
 ## Additional considerations
 
