@@ -9,7 +9,7 @@ The Protocol Labs Research Grant Program aims to both support collaborative work
 Protocol Labs Research funds three broad categories of grants:
 1. Topic-specific Requests for Proposals (RFPs), designed to fund goal-driven research in response to specific open problems defined by Protocol Labs (PL). RFPs are posted intermittently based on need and readiness of our research labs to support these collaborations.
 2. Open research grants, intended to support researchers pursuing topics of interest to Protocol Labs. These include:
-    * PhD Fellowships
+    * Doctoral Fellowships
     * Postdoctoral Fellowships
     * Faculty Summer Research Grants
     * Faculty Research Sabbatical Awards
