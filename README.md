@@ -51,9 +51,9 @@ Applications for open grants can be submitted at any time and are processed in q
 
 The Doctoral Fellowship is intended to support the development of an early-stage researcher conducting research in one of PL's fields of interest. This award is available to doctoral candidates who have completed their Master's degree or have otherwise satisfied the requirements for candidacy.
 
-The **PL Research PhD Fellowship** consists of a fixed award of **$60,000**, intended to cover tuition and subsistence costs for a period of one year. PhD Fellowships can be renewed for a second year, by mutual agreement between PL and the grantee.
+The **PL Research Doctoral Fellowship** consists of a fixed award of **$60,000**, intended to cover tuition and subsistence costs for a period of one year. Doctoral Fellowships can be renewed for a second year, by mutual agreement between PL and the grantee.
 
-This application may be submitted by the PhD candidate, their PI, or an administrative staff member from the host  institution. The submitter will serve as the primary point of contact for all communications regarding this application.
+This application may be submitted by the doctoral candidate, their PI, or an administrative staff member from the host institution. The submitter will serve as the primary point of contact for all communications regarding this application.
 
 
 #### Protocol Labs Postdoctoral Fellowship
