@@ -7,17 +7,37 @@ The Protocol Labs Research Grant Program aims to both support collaborative work
 ## Funding instruments
 
 Protocol Labs Research funds three broad categories of grants:
-1. Open research grants, intended to support researchers pursuing topics of interest to Protocol Labs. These include:
+1. Topic-specific Requests for Proposals (RFPs), designed to fund goal-driven research in response to specific open problems defined by Protocol Labs (PL). RFPs are posted intermittently based on need and readiness of our research labs to support these collaborations.
+2. Open research grants, intended to support researchers pursuing topics of interest to Protocol Labs. These include:
     * PhD Fellowships
     * Postdoctoral Fellowships
     * Faculty Summer Research Grants
     * Faculty Research Sabbatical Awards
-2. Topic-specific Requests for Proposals (RFPs), designed to fund goal-driven research in response to specific open problems defined by Protocol Labs (PL). RFPs are posted intermittently based on need and readiness of our research labs to support these collaborations.
 3. A wildcard Request for Proposals, RFP-X, by which we fund research proposed by applicants where funding from one of our other grant structures does not readily apply. Note that we have a strong preference for funding via the open grants framework, and **RFP-X applications that could be handled within the existing framework will be rejected without review.**
 
 Evaluation of applications for the open grants will occur in quarterly rounds. Decisions will normally be made and communicated to applicants within eight weeks of these submission deadlines. Evaluation for RFPs takes place according to the timeline in the call. RFP-X applications are evaluated year-round but usually have longer decision times.
 
- If you have any questions, please email us at **research@protocol.ai**.
+If you have any questions, please email us at **research@protocol.ai**.
+
+### Requests for Proposals (RFPs)
+
+Requests for Proposals are a fairly common method for funding individuals and groups to solve problems, and have the goal of funding researchers to develop or find novel results on specific topics. RFPs are posted as issues [in this repo](RFPs/), and a summary of current and past RFPs may be found below:
+
+#### Active
+ - [RFP-011: Changing the Internet](RFPs/rfp-011-changing-the-internet.md)
+ - [RFP-012: Checkpointing Filecoin into Bitcoin](RFPs/rfp-012-checkpointing-fil-into-btc.md)
+
+#### Inactive
+ - [RFP-001: Novel constructions for Proof-of-Replication](RFPs/rfp-001-proof-of-replication.md)
+ - [RFP-002: Novel constructions for Proof-of-Spacetime](RFPs/rfp-002-proof-of-spacetime.md)
+ - [RFP-003: Single Secret Leader Election](RFPs/rfp-003-single-leader-election.md)
+ - [RFP-004: Decentralised Access Control in CRDTs](RFPs/rfp-004-CRDT-ACL.md)
+ - [RFP-005: Optimize storage and convergence time in causal CmRDTs](RFPs/rfp-005-optimized-CmRDT.md)
+ - [RFP-006: Secret Single-Leader Election (SSLE)](RFPs/rfp-006-SSLE.md)
+ - [RFP-007: Multi-Level DHT Design and Evaluation](RFPs/rfp-007-MLDHT.md)
+ - [RFP-008: Scalability Bounds of P2P Pub/Sub (libp2p floodsub, gossipsub and episub)](RFPs/rfp-008-pubsub.md)
+ - [RFP-009: Proof of Space and Useful Space](RFPs/rfp-009-proof-of-space-and-useful-space.md)
+ - [RFP-010: Vector Commitments](RFPs/rfp-010-vector-commitments.md)
 
 ### Open Research Grants
 
@@ -61,26 +81,6 @@ The Summer Research Grant is intended to support faculty using the summer term t
 The **PL Summer Research Grant** consists of a fixed award of **$40,000**, intended to cover approximately 3/9ths of the researchers’ salary.
 
 This application may be submitted by the applicant or an administrative staff member. The submitter will serve as the primary point of contact for all communications regarding this application.
-
-### Requests for Proposals (RFPs)
-
-Requests for Proposals are a fairly common method for funding individuals and groups to solve problems, and have the goal of funding researchers to develop or find novel results on specific topics. RFPs are posted as issues [in this repo](RFPs/), and a summary of current and past RFPs may be found below:
-
-#### Active
-  - [RFP-011: Changing the Internet](RFPs/rfp-011-changing-the-internet.md)
-  - [RFP-012: Checkpointing Filecoin into Bitcoin](RFPs/rfp-012-checkpointing-fil-into-btc.md)
-
-#### Inactive
-  - [RFP-001: Novel constructions for Proof-of-Replication](RFPs/rfp-001-proof-of-replication.md)
-  - [RFP-002: Novel constructions for Proof-of-Spacetime](RFPs/rfp-002-proof-of-spacetime.md)
-  - [RFP-003: Single Secret Leader Election](RFPs/rfp-003-single-leader-election.md)
-  - [RFP-004: Decentralised Access Control in CRDTs](RFPs/rfp-004-CRDT-ACL.md)
-  - [RFP-005: Optimize storage and convergence time in causal CmRDTs](RFPs/rfp-005-optimized-CmRDT.md)
-  - [RFP-006: Secret Single-Leader Election (SSLE)](RFPs/rfp-006-SSLE.md)
-  - [RFP-007: Multi-Level DHT Design and Evaluation](RFPs/rfp-007-MLDHT.md)
-  - [RFP-008: Scalability Bounds of P2P Pub/Sub (libp2p floodsub, gossipsub and episub)](RFPs/rfp-008-pubsub.md)
-  - [RFP-009: Proof of Space and Useful Space](RFPs/rfp-009-proof-of-space-and-useful-space.md)
-  - [RFP-010: Vector Commitments](RFPs/rfp-010-vector-commitments.md)
 
 ### RFP-X
 
