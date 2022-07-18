@@ -17,7 +17,7 @@ Protocol Labs Research funds three broad categories of grants:
 
 Evaluation of applications for the open grants will occur in quarterly rounds. Decisions will normally be made and communicated to applicants within eight weeks of these submission deadlines. Evaluation for RFPs takes place according to the timeline in the call. RFP-X applications are evaluated year-round but usually have longer decision times.
 
-If you have any questions, please email us at **research@protocol.ai**.
+If you have any questions, please email us at **research-grants@protocol.ai**.
 
 ### Requests for Proposals (RFPs)
 
