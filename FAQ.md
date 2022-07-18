@@ -16,4 +16,4 @@ Doctoral and postdoctoral fellowship proposals may be submitted by an advisor or
 Yes. Protocol Labs will create a gift letter as standard. It is also possible for us to write a more tailored letter if required. However, non-standard letters take additional time and may require input from multiple individuals and departments. If your institution has very particular requirements, please ensure that the your institution's point-of-contact for funding makes us aware of these as soon as possible.
 
 #### Who can I contact if I have questions that aren't answered here?
-A: Please reach out to research-acceleration@protocol.ai 
+A: Please reach out to research-grants@protocol.ai.
