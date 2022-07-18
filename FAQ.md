@@ -1,7 +1,7 @@
 # Grants and RFPs FAQ
 
 #### What needs to be submitted with my application?
-Each open grant and RFP has its own set of requirements; these are clearly stated in the application portal. Most will require a detailed proposal and a CV. Doctoral and postdoctoral fellowships also require a letter of recommendation, which can be submitted directly by the applicant or emailed to research-acceleration@protocol.ai by the recommender. 
+The broad requirements for each open grant and RFP can be found [here]. As you follow the steps to submit a proposal through the grants portal, you will be shown instructions that outline what you should include in more detail. For further questions, please reach out to research-grants@protocol.ai.
 
 #### My proposal was denied. Can I apply again in the future?
 Yes. If you feel you can thoroughly address the reviewers’ feedback and ensure that a future proposal is aligned with Protocol Labs’ research priorities (as you understand them), we would welcome the opportunity to review a future application. It may be possible to set up a call with members of the lab you are interested in to discuss this. Please note that you will need to submit a new proposal, as we do not re-review proposals from previous cycles.
