@@ -31,7 +31,7 @@ Commensurate with scope, up to $35,000 per award. We expect the typical grant to
 Paid upon award.
 
 ### Point of contact
-**(TAG Rosario)**. We encourage you to reach out to research-grants@protocol.ai or visit #lobby in the Cryptonet Discord **(LINK?)** if you are considering applying or have any questions.
+@rosariogennaro. We encourage you to reach out to research-grants@protocol.ai or visit #lobby in the Cryptonet Discord **(LINK?)** if you are considering applying or have any questions.
 
 ### Applications
 Please submit your proposal using our application management system at https://grants.protocol.ai/.
