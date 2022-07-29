@@ -25,7 +25,7 @@ Funds can be used to support graduate students, the summer salaries of universit
 **Rolling**: we will be reviewing applications in batches corresponding to calendar months. The call will close on **July 30, 2023**, or earlier if the allocated funding is exhausted.
 
 ### Award
-Commensurate with scope, up to USD 35k per award. We expect the typical grant to last one year (with possible renewal) and be funded on average $25,000. 
+Commensurate with scope, up to $35,000 per award. We expect the typical grant to last one year (with possible renewal) and be funded on average $25,000. 
 
 ### Payout schedule
 60% upon award and 40% on completion (adjustable to accommodate institutional requirements).
