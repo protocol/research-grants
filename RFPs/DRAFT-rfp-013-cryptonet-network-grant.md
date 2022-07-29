@@ -28,7 +28,7 @@ Funds can be used to support graduate students, the summer salaries of universit
 Commensurate with scope, up to $35,000 per award. We expect the typical grant to last one year (with possible renewal) and be funded on average $25,000. 
 
 ### Payout schedule
-60% upon award and 40% on completion (adjustable to accommodate institutional requirements).
+Paid upon award.
 
 ### Point of contact
 **(TAG Rosario)**. We encourage you to reach out to research-grants@protocol.ai or visit #lobby in the Cryptonet Discord **(LINK?)** if you are considering applying or have any questions.
