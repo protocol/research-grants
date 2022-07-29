@@ -22,7 +22,7 @@ Funds can be used to support graduate students, the summer salaries of universit
 ## RFP Details
 
 ### Application deadline
-**Rolling**: we will be reviewing applications in batches corresponding to calendar months. The call will close on **September 30, 2022**, or earlier if awarded.
+**Rolling**: we will be reviewing applications in batches corresponding to calendar months. The call will close on **July 30, 2023**, or earlier if the allocated funding is exhausted.
 
 ### Recommended team
  
