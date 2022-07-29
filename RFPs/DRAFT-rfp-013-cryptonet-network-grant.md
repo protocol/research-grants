@@ -19,10 +19,6 @@ CryptoNet will fund grants in the following areas:
 
 Funds can be used to support graduate students, the summer salaries of university faculty, travel to conferences and meetings, participation in summer schools and Web3 events, fellowships for graduate students and postdocs. 
 
-## Scope of this RFP
-
-The goal of this RFP is to fund research that addresses one or more of the open problems above while meeting the requirements/constraints of the overall project and driving progress towards the goals. Proposals should seek to maintain compatibility with portions of the solution that they do not replace or improve upon.
-
 ## RFP Details
 
 ### Application deadline
