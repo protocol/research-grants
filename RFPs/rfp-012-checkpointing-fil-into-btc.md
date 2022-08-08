@@ -10,7 +10,13 @@ We are soliciting proposals to explore and develop viable mechanisms for reader-
 ### Existing Approaches
 The most widely deployed approaches to reader privacy rely on mixnet and mixnet-like multi-hop systems ([Nym](https://nymtech.net/), [Tor](https://www.torproject.org/)), or on trusted hardware ([SGX](https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html)).
 
-[INSERT TABLE]
+| System | Anonymity | Scale |
+| ------ | --------- | ------ |
+| [Tor](https://torproject.org) | Onion Routing | 10k routers, [3m](https://metrics.torproject.org/userstats-relay-country.html) users |
+| [Nym](https://nymtech.net/) | Mixnet | 500 routers, ~[20k](https://etherscan.io/token/0x525A8F6F3Ba4752868cde25164382BfbaE3990e1#balances) users |
+| [Freenet](https://freenetproject.org/index.html) | [Proactive-Replication](https://freenetproject.org/papers/ddisrs.pdf) | ~[25k](https://www.reddit.com/r/Freenet/comments/ek7vz/huge_jump_in_freenet_user_count_probably_thanks/) users |
+| [Signal](https://signal.org/) | Centralized. SGX | ~[40m](https://www.businessofapps.com/data/signal-statistics/) users |
+
 
 There are tradeoffs associated with each of these solutions. Mixnets and onion routing incur higher latency costs. The additional network hops used by these systems make them difficult to ever compete on speed with web2 CDNs. Multihop systems today have not considered how to optimize performance for non-web cases with self-authenticating, cacheable content.
 
