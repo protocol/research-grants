@@ -26,19 +26,19 @@ Requests for Proposals are a fairly common method for funding individuals and gr
 #### Active
  - [RFP-011: Changing the Internet](RFPs/rfp-011-changing-the-internet.md)
  - [RFP-012: Checkpointing Filecoin into Bitcoin](RFPs/rfp-012-checkpointing-fil-into-btc.md)
- - [RFP-014: Checkpointing Filecoin into Bitcoin](RFPs/rfp-014-private-retrieval-of-data)
+ - [RFP-014: Private retrieval of data](RFPs/rfp-014-private-retrieval-of-data)
 
 #### Inactive
  - [RFP-001: Novel constructions for Proof-of-Replication](RFPs/rfp-001-proof-of-replication.md)
  - [RFP-002: Novel constructions for Proof-of-Spacetime](RFPs/rfp-002-proof-of-spacetime.md)
  - [RFP-003: Single Secret Leader Election](RFPs/rfp-003-single-leader-election.md)
- - [RFP-004: Decentralised Access Control in CRDTs](RFPs/rfp-004-CRDT-ACL.md)
+ - [RFP-004: Decentralised access control in CRDTs](RFPs/rfp-004-CRDT-ACL.md)
  - [RFP-005: Optimize storage and convergence time in causal CmRDTs](RFPs/rfp-005-optimized-CmRDT.md)
- - [RFP-006: Secret Single-Leader Election (SSLE)](RFPs/rfp-006-SSLE.md)
- - [RFP-007: Multi-Level DHT Design and Evaluation](RFPs/rfp-007-MLDHT.md)
- - [RFP-008: Scalability Bounds of P2P Pub/Sub (libp2p floodsub, gossipsub and episub)](RFPs/rfp-008-pubsub.md)
+ - [RFP-006: Secret single-leader election (SSLE)](RFPs/rfp-006-SSLE.md)
+ - [RFP-007: Multi-Level DHT design and evaluation](RFPs/rfp-007-MLDHT.md)
+ - [RFP-008: Scalability bounds of P2P Pub/Sub (libp2p floodsub, gossipsub and episub)](RFPs/rfp-008-pubsub.md)
  - [RFP-009: Proof of Space and Useful Space](RFPs/rfp-009-proof-of-space-and-useful-space.md)
- - [RFP-010: Vector Commitments](RFPs/rfp-010-vector-commitments.md)
+ - [RFP-010: Vector commitments](RFPs/rfp-010-vector-commitments.md)
 
 ### Open Research Grants
 
