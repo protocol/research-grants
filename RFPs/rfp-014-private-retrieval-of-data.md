@@ -82,7 +82,7 @@ Commensurate with scope, up to USD 150k per award for research grants and USD 30
 ### Point of contact
 @willscott
 
-We encourage you to reach out to grants@protocol.ai or visit #private-retrieval in the [Lodestar Discord](https://discord.gg/y63FHBWv) if you’re considering applying or have any questions.
+We encourage you to reach out to research-grants@protocol.ai or visit #private-retrieval in the [Lodestar Discord](https://discord.gg/y63FHBWv) if you’re considering applying or have any questions.
 
 ### Applications
 Please submit your proposal using our application management system at https://grants.protocol.ai/.
