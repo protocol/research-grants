@@ -1,4 +1,4 @@
-# RFP-010: Vector Commitments
+# RFP-010: Vector commitments
 
 ## **Background**
 

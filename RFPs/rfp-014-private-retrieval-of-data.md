@@ -1,4 +1,4 @@
-# RFP-014: Private Retrieval of Data
+# RFP-014: Private retrieval of data
 
 ## Background
 

@@ -1,4 +1,4 @@
-# RFP-004: Data laced with permissions: Decentralised Access Control in CRDTs
+# RFP-004: Data laced with permissions: Decentralised access control in CRDTs
 
 **Brief description**
 Conflict-free replicated data types (CRDTs) provide a framework for creating eventually consistent data types that can be shared amongst replicas and that guarantees liveliness and monotonicity. To allow replica creators and owners to keep control over who has read and write access to a CRDT instance, we seek a decentralised Access control list (ACL) type that has typical ACL security properties and that, when applied to a CRDT instance, still guarantees CRDT safety (that it provably converges to the same value on all replicas).
