@@ -1,91 +1,81 @@
-# RFP-014: Private Retrieval of Data
+# RFP-012: Checkpointing Filecoin onto Bitcoin
 
-## Background
+## Motivation
+Blockchains based on a reusable resource (such as proof-of-stake or proof-of-space) are not as secure as those based on proof-of-work. Specifically, they are vulnerable to long-range attacks (LRA), where an adversary can create a long fork very cheaply.
 
-### Motivation
-The options available today for interactive (low latency) communication with privacy guarantees are very limited. Solutions developed to date have focused on the traditional web model of a single trusted origin publisher for data (as opposed to content-addressed systems where data may be replicated in advance), and have drawbacks both in their incurred latency and threat model. 
+Long-range attacks rely on the inability of a user who disconnects from the system at time $t_1$ and reconnects at a later time to tell that validators that were legitimate at time $t_1$ and left the system (by, e.g., transferring their stake) are not to be trusted anymore.
 
-We are soliciting proposals to explore and develop viable mechanisms for reader-private communications under the hypothesis that it is possible to design a scalable system that does not sacrifice latency for privacy.
+In a PoS system, where the creation of blocks is costless and timeless, these validators could create a fork that starts from the past (i.e., at time $t_1$) and runs until the present. This is unlike, for example, proof-of-work (PoW) systems, where creating blocks requires time and money (e.g., performing actual computation) and not just using cryptographic keys. A user would be unable to recognize the attack as they are presented with a "valid" chain fork. Because the past keys of a given chain fork do not hold value in the present on that fork, previous validators can be easily bribed by an adversary intending to perform this attack.
 
-### Existing Approaches
-The most widely deployed approaches to reader privacy rely on mixnet and mixnet-like multi-hop systems ([Nym](https://nymtech.net/), [Tor](https://www.torproject.org/)), or on trusted hardware ([SGX](https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html)).
+With [project Pikachu](https://github.com/protocol/ConsensusLab/issues/5), we propose to design a checkpointing mechanism that leverages the security of proof-of-work blockchains by anchoring the state of the Filecoin chain onto the Bitcoin blockchain. In the case of long-range attacks, the Bitcoin chain can be used to determine the honest chain. We present our current design below before explaining its limitations and some associated open problems. In short, we came up with a design that leverages Schnorr threshold signatures supported by the 2021 Bitcoin Taproot upgrade. However, we still need to scale the solution to accommodate PoS and related weighted consensus protocols (such as Filecoin's [Expected Consensus](https://spec.filecoin.io/algorithms/expected_consensus/)), which feature possibly thousands of miners/validators.
 
-| System | Anonymity | Scale |
-| ------ | --------- | ------ |
-| [Tor](https://torproject.org) | Onion Routing | 10k routers, [3m](https://metrics.torproject.org/userstats-relay-country.html) users |
-| [Nym](https://nymtech.net/) | Mixnet | 500 routers, ~[20k](https://etherscan.io/token/0x525A8F6F3Ba4752868cde25164382BfbaE3990e1#balances) users |
-| [Freenet](https://freenetproject.org/index.html) | [Proactive-Replication](https://freenetproject.org/papers/ddisrs.pdf) | ~[25k](https://www.reddit.com/r/Freenet/comments/ek7vz/huge_jump_in_freenet_user_count_probably_thanks/) users |
-| [Signal](https://signal.org/) | Centralized. SGX | ~[40m](https://www.businessofapps.com/data/signal-statistics/) users |
+## Existing design
 
+### Intuition
+We designed a solution to LRA, inspired by [Steinhoff et al.](https://arxiv.org/abs/2109.03913) (who showed how to do this on Ethereum (Eth 1.0)) using Bitcoin's PoW, as Ethereum is moving to proof-of-stake. The implementation and design of such a scheme on Bitcoin is more challenging than the implementation on Eth 1.0 of Steinhoff et al. because Bitcoin's expressivity is considerably more limited. Besides, the approach designed by Steinhoff et al. leverages multi-signatures for anchoring, which can quickly bloat the transaction size, making it, at worst, impossible to anchor PoS networks with a large number of validators, and, at best, very costly to do so.
 
-There are tradeoffs associated with each of these solutions. Mixnets and onion routing incur higher latency costs. The additional network hops used by these systems make them difficult to ever compete on speed with web2 CDNs. Multihop systems today have not considered how to optimize performance for non-web cases with self-authenticating, cacheable content.
+Our approach to addressing this constraint is to use the capabilities enabled by the recent Taproot upgrade to Bitcoin, which allows for more efficient Schnorr threshold signatures. As Bitcoin does not allow for stateful smart contracts, we instead use an aggregated public key to represent the set of validators in the PoS system. When the set changes, the aggregated key must be updated in the Bitcoin blockchain. This is done by having a transaction transfer the funds associated with the aggregated key of the previous validators to the new aggregated key. Instead of having each validator send a transaction to the Bitcoin network, this transaction is signed interactively, off-chain, and all the signatures are aggregated into one constant-size signature.
 
-Hardware solutions like SGX have been used as a privacy solution in a number scenarios, and notably by Signal. This abstraction offers low latency, but rests on trust in a centralized server operator and hardware manufacturer.
+We note that since our work is based on Schnorr threshold signatures and uses Bitcoin's Taproot, it could be of independent interest to any project looking to implement large-scale threshold signing transactions on Bitcoin (for example, [sidechains](https://gist.github.com/mappum/da11e37f4e90891642a52621594d03f6)).
 
-Other potential improvements to the security/privacy equilibrium have been developed in the academic literature, but have not yet crossed the innovation chasm into production. These include cryptosystems like [Fully homomorphic encryption](http://cs.cmu.edu/~odonnell/hits09/gentry-homomorphic-encryption.pdf) (FHE), the centerpiece of  DARPA’s [DPRIVE program](https://www.darpa.mil/news-events/2020-03-02) and massively-scalable anonymous communication systems like [PIR-Tor](https://www.usenix.org/conference/usenix-security-11/pir-tor-scalable-anonymous-communication-using-private-information). Promising techniques from blinded tokens to zero knowledge proofs and statistical data structures may also play roles in a practical system.
+### High-level protocol description
+Each configuration $C_i$ (i.e. set of participants) is associated with a [Taproot](https://en.bitcoin.it/wiki/BIP_0341) public key $Q_i$ that consists of an internal key, in this case an aggregate public key $pk_i$, which participants computed with an interactive DKG protocol and a tweaked part (see figure below).
 
-### Further Reading
-The research community has made many advances in the last 3 decades in the spirit of this RFP. Here we briefly note several examples of such research to provide context, but do not view any specific paper as prescriptive or specifically the kind of research we are seeking in response to this RFP.
+![](https://i.imgur.com/nirWuWc.jpg)
 
-- [Freenet: A distributed anonymous information storage and retrieval system - Designing privacy enhancing technologies - 2001](http://snap.stanford.edu/class/cs224w-readings/clarke00freenet.pdf)
-- [Express: Lowering the Cost of Metadata-hiding Communication with Cryptographic Privacy - Usenix Security 2021](https://www.usenix.org/conference/usenixsecurity21/presentation/eskandarian)
-- [Karaoke: Distributed Private Messaging Immune to Passive Traffic Analysis - OSDI 2018](https://www.usenix.org/conference/osdi18/presentation/lazar)
-- [PIR-Tor: Scalable Anonymous Communication Using Private Information Retrieval](https://www.usenix.org/conference/usenix-security-11/pir-tor-scalable-anonymous-communication-using-private-information)
-- [Oblivious DNS: Practical Privacy for DNS Queries](https://petsymposium.org/2019/files/papers/issue2/popets-2019-0028.pdf)
-- [CryptDB: processing queries on an encrypted database](https://dl.acm.org/doi/abs/10.1145/2330667.2330691)
+We choose to tweak the internal key using a commitment to the PoS chain (i.e., the hash of the state of the PoS blockchain), i.e., we have: $Q_{i} = pk_{i} + H_{TapTweak}(pk_{i}||ckpt)G$. Each player $j$ in the configuration then knows a share of the secret key associated with $pk_i$, $s_{i,j}$, such that $t_i$ of the shares are enough to compute a valid signature on any message, but fewer than $t_i$ participants cannot compute a signature.
 
-## Problem Statement
-The solutions proposed for this RFP will address our published [Open Problem on Private Retrieval](https://github.com/protocol/research#private-retrieval). 
+Configuration $C_i$ is responsible for anchoring the state of the PoS chain at this point in time in the Bitcoin blockchain, which also includes updating the new configuration. In order to do so, the new configuration $C_{i+1}$ must first compute their aggregated public key $pk_{i+1}$ using the DKG algorithm.
+
+This key is then tweaked using a commitment $ckpt$ to the PoS chain (i.e., the hash of the PoS chain at that time). The tweaked key becomes $Q_{i+1} = pk_{i+1} + H_{TapTweak}(pk_{i+1}||ckpt)G$.
+
+Note that only the tweaked key will appear on the blockchain, and so the hash $ckpt$ will not be visible to anyone looking at the blockchain without external knowledge. However, anyone with access to $pk_{i+1}$ and $ckpt$ can easily reconstruct $Q_{i+1}$ to verify that their view of the PoS chain is correct.
+
+To update the configuration from $C_i$ to $C_{i+1}$, a transaction from $Q_i$ to $Q_{i+1}$ must be included in the Bitcoin blockchain. The transaction needs to be signed by $t_i$ participants from configuration $C_i$ where $t_i$ is chosen to be strictly more than $f|C_i|$ as this ensures that at least one honest participant signs, preventing an adversary from signing an illegitimate transaction. Our current prototype uses the [FROST](https://eprint.iacr.org/2020/852) algorithm for signing.
+
+Since we assume that online validators can distinguish an LRA chain, it is enough to have the transaction signed by $t_i$ participants as no honest validators can be fooled into signing an illegitimate transaction. If forks were allowed in the case of an adversary with only $f$ fraction of the power (i.e., outside of LRA forks), this would be more problematic, as two conflicting transactions could then be signed, and we would require at least two-thirds of the participants to sign the transaction, for $f=1/3$ (this could be fixed by considering a block in the past, i.e. one that has been finalized).
+
+In addition to the transfer of coins from $Q_i$ to $Q_{i+1}$, the transaction spent by configuration $C_i$ will have a second output that does not receive any bitcoins and is unspendable but contains an identifier $cid$ used to retrieve the full details of the configuration. This is done using the [OP\_RETURN](https://en.bitcoin.it/wiki/OP_RETURN) opcode of Bitcoin that allows storing of extra information in the chain.
+
+This identifier is useful when a user does not have access to the right PoS chain (i.e., does not have the correct value for $pk_{i+1}$ and $c$ due to an LRA). In this case, the content identifier $cid$ can be used, together with content-addressable decentralized storage, for example, IPFS (or alternative content-addressable storage implemented on PoS network validators) to retrieve the identities of the nodes in the correct configuration.
+
+The transaction updating the configuration will look as follows:
+$tx_i:Q_i\rightarrow((\textsf{amount},Q_{i+1}),(0,OP\_{RETURN}=cid))$, meaning that $\textsf{amount}$ is transferred to $Q_{i+1}$ and 0 is transferred to $OP\_{RETURN}=cid$ (unspendable output).
+This information is then publicly available.
+
+## Limitations and open problems
+The approach presented above is limited mainly due to the high communication cost of the threshold DKG, where each participant must share a secret with the rest. This limitation is even more severe when considering a non-flat model, where a participant must hold a number of keys proportional to their amount of stake/power in the system. With a blockchain like Filecoin, we could quickly end up with hundreds of thousands or even millions of keys. This solution is hence not viable for large blockchains. We are thus interested in developing a solution that could scale to up to **500k keys** or that can incorporate the power (weight) of participants without dramatically increasing the number of keys and scale to up to **10k (weighted) participants**.
+
+Although scalable threshold DKG and signatures schemes have recently been proposed, none of them are currently compatible with Bitcoin (e.g. BLS signature, [Mithril](https://eprint.iacr.org/2021/916)). Solving the following open problems would help scale our solution to thousands or millions of nodes:
+
+* Non-interactive DKG compatible with Schnorr threshold signing schemes on the secp256k1 curve and scalable to 500k keys.
+* Threshold DKG and Schnorr signing schemes on the secp256k1 curve that incorporate the weight of participants and scale to 10k nodes.
+* Parallelized DKG: sort the participants into different subgroups of the same "size" (i.e., power) and have them compute a DKG inside their subgroup, then merge the keys of all the subgroups; this approach is an open problem as the interactions between subgroups to compute the final threshold key would be highly complex.
+* Efficient share aggregation: aggregate the shares associated with one participant, such that the complexity of our protocol is quadratic in the number of participants and not the number of "unit of power" (i.e., moving from a flat to a non-flat model should not significantly increase the communication complexity of the algorithm); some shares can currently be aggregated but not to the point of being equivalent to a flat model.
+* Sampling: similar to the approach used in [Mithril](https://eprint.iacr.org/2021/916), one could elect a subset of the participants to perform the signing instead of having everyone contribute; the issue with this approach is that, in our case, the sample elected to perform the signing must be known ahead of time (as they need to compute the DKG beforehand) and hence could be corrupted by an adversary prior to the signature. This is unlike the approach in Mithril, where the sample elected is revealed at the time of creating the signature.
 
 ## Scope of this RFP
-This request for proposals is intended to fund the **research and development of interactive private communication mechanisms, with the goal of creating deployable prototypes**. We are particularly excited to develop work that can be applied in the contexts of libp2p, IPFS, and Filecoin, but we are considering all projects which can be generalized to content-addressed data
 
-We are interested in funding projects which: 
-- Explore new mechanisms for private communication (e.g. with cryptographic, information theoretic, or statistical basis)
-- Relax the traditional ‘web’ assumptions of a single origin to engage with the possibilities of pre-distributed CDN or content-addressed data.
-- Prototype the use of novel network-layer privacy technologies in real systems.
-
-## Program Objectives
-This call for proposals seeks both **research leading to deployment-ready design sketches** for private communication mechanisms as well as **development activities implementing prototypes** from existing  designs. Applicants should specify which of these objectives their proposal addresses.
-
-**Objective 1 (Research):**
-Design of a mechanism or architecture for private/anonymous low-latency communication
-- Designs should be fully specified and compatible with implementation in a Web3 context.
-- Solutions should be accompanied by experimental/simulation results demonstrating reduced latency and equivalent security (under reasonable model parameters) to existing mechanisms. This includes a demonstration of the scaling performance of the system.
-
-**Objective 2 (Implementation):**
-Development of a deployment-ready prototype of a mechanism or architecture for private/anonymous low-latency communication from existing designs.
-- The design to be implemented should be referenced and fully specified in the proposal. 
-- Solutions should be accompanied by experimental/simulation results comparing the performance of the system to that  projected in the original research result, and to other relevant extant solutions.
+The goal of this RFP is to fund research that addresses one or more of the open problems above while meeting the requirements/constraints of the overall project and driving progress towards the goals. Proposals should seek to maintain compatibility with portions of the solution that they do not replace or improve upon.
 
 ## RFP Details
 
-### Application Deadline
-This RFP will be awarded in phases to accommodate iterative developmental work referencing prior designs.
-
-**Rolling:** we will be reviewing applications in batches corresponding to calendar months. Phase 1 will close on **1 March 2023** or earlier if awarded.
+### Application deadline
+**Rolling**: we will be reviewing applications in batches corresponding to calendar months. The call will close on **September 30, 2022**, or earlier if awarded.
 
 ### Recommended team
-
-#### Research
-We expect that a team of 1-2 postdoctoral researchers/PhD students supported by their PI working for 1 year should be appropriate for the technical depth of the work, but we will consider other proposals. Renewals are possible for more technically complex projects.
-
-#### Implementation
-We expect that a team of 2-3 research engineers/developers working for 1-2 years will be sufficient to carry out the prototype development projects envisioned in this call,  but we will consider other proposals. Renewals are possible.
+A team of one PhD or postdoctoral researcher supported by one PI should be appropriate for the technical depth of the work, but we will consider other proposals.
 
 ### Award
-Commensurate with scope, up to USD 150k per award for research grants and USD 300k per award for implementation grants.
+Commensurate with scope, up to USD 100k per award. We will generally consider projects lasting up to one year, but faster delivery (through scope restriction or parallelization) is highly prized.
 
 ### Payout schedule
-60% upon award and 40% on completion (adjustable to accommodate institutional requirements). Awardees may choose to receive any amount of their award in FIL.
+60% upon award and 40% on completion (adjustable to accommodate institutional requirements).
 
 ### Point of contact
-@willscott 
-
-We encourage you to reach out to rfp@protocol.ai or visit #private-retrieval RFP in the [Lodestar Discord](https://discord.gg/y63FHBWv)  if you’re considering applying or have any questions.
+**@sa8**. We encourage you to reach out to research-grants@protocol.ai or visit #consensus in the [Filecoin Slack](https://filecoin.io/slack/) if you are considering applying or have any questions.
 
 ### Applications
 Please submit your proposal using our application management system at https://grants.protocol.ai/.
 
-**Results are to be released as open source under the [Permissive License Stack](https://protocol.ai/blog/announcing-the-permissive-license-stack/) (Dual License Apache-2 + MIT).**
-
+** Results are to be released as open-source under the Permissive License Stack (Dual License Apache-2 + MIT).
