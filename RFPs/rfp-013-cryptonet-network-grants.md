@@ -10,14 +10,14 @@ A network grant is a mid-size funding instrument intended to stimulate research 
 We will fund grants in the following areas: 
 
 - SNARKs
-- Vector Commitments
-- Multiparty Computation
-- Threshold Cryptography
+- Vector commitments
+- Multiparty computation
+- Threshold cryptography
 - Decentralized and anonymous authentication
-- Fully Homomorphic Encryption
-- Security against Rational Adversaries
-- Quantum Resistant Cryptography
-- Proofs of Space
+- Fully homomorphic encryption
+- Security against rational adversaries
+- Quantum resistant cryptography
+- Proofs of space
 
 Funds can be used to support graduate students, the summer salaries of university faculty, travel to conferences and meetings, participation in summer schools and Web3 events, fellowships for graduate students and postdocs. 
 
