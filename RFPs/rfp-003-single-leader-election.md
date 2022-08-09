@@ -1,4 +1,4 @@
-# RFP-003: Single Secret Leader Election
+# RFP-003: Single secret leader election
 
 **Brief description:**
 We aim to improve the original Leader Election protocol described in the [Filecoin whitepaper](https://filecoin.io/filecoin.pdf) by offering grants to ensure that all desired properties are provided by an alternative election mechanism that preserves all desired properties, but also elects exactly one leader per epoch.

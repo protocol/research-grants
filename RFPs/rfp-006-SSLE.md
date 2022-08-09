@@ -1,4 +1,4 @@
-# RFP-006: Secret Single-Leader Election (SSLE)
+# RFP-006: Secret single-leader election (SSLE)
 
 ## Brief description
 

@@ -1,4 +1,4 @@
-# RFP-002: Novel constructions for Proof-of-Spacetime
+# RFP-002: Novel constructions for *Proof-of-Spacetime*
 
 **Brief description:**
 We aim at stimulating the creation of novel constructions for Proof-of-Spacetime, described in the [Filecoin whitepaper](https://filecoin.io/filecoin.pdf), by offering grants to solve any of the open problems listed in the problem statement below.
