@@ -1,4 +1,4 @@
-# RFP-013: Cryptonet Network Grant
+# RFP-013: Cryptonet network grants
 
 ## Background
 As part of [Cryptonet](https://cryptonet.org/)’s mission to improve the cryptographic building blocks for Web3 applications, we are very interested in funding research projects in the space, and creating collaborations across companies and academia.  If you are a researcher working in any of Web3-related cryptographic problems we encourage you to apply to one of our grants, and become part of Cryptonet extended community of researchers and collaborator.
