@@ -26,6 +26,7 @@ Requests for Proposals are a fairly common method for funding individuals and gr
 #### Active
  - [RFP-011: Changing the Internet](RFPs/rfp-011-changing-the-internet.md)
  - [RFP-012: Checkpointing Filecoin into Bitcoin](RFPs/rfp-012-checkpointing-fil-into-btc.md)
+ - [RFP-013: Cryptonet network grants](RFPs/rfp-013-cryptonet-network-grants.md)
  - [RFP-014: Private retrieval of data](RFPs/rfp-014-private-retrieval-of-data.md)
 
 #### Inactive
