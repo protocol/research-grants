@@ -29,7 +29,7 @@ The research community has made many advances in the last 3 decades in the spiri
 
 - [Freenet: A distributed anonymous information storage and retrieval system - Designing privacy enhancing technologies - 2001](http://snap.stanford.edu/class/cs224w-readings/clarke00freenet.pdf)
 - [Express: Lowering the Cost of Metadata-hiding Communication with Cryptographic Privacy - Usenix Security 2021](https://www.usenix.org/conference/usenixsecurity21/presentation/eskandarian)
-- [Blinder: MPC Based Scalable and Robust Anonymous Committed Broadcast - CCS 2021] (https://eprint.iacr.org/2020/248)
+- [Blinder: MPC Based Scalable and Robust Anonymous Committed Broadcast - CCS 2021](https://eprint.iacr.org/2020/248)
 - [Karaoke: Distributed Private Messaging Immune to Passive Traffic Analysis - OSDI 2018](https://www.usenix.org/conference/osdi18/presentation/lazar)
 - [PIR-Tor: Scalable Anonymous Communication Using Private Information Retrieval](https://www.usenix.org/conference/usenix-security-11/pir-tor-scalable-anonymous-communication-using-private-information)
 - [Oblivious DNS: Practical Privacy for DNS Queries](https://petsymposium.org/2019/files/papers/issue2/popets-2019-0028.pdf)
