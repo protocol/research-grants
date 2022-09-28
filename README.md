@@ -6,16 +6,16 @@ The Protocol Labs Research Grant Program aims to both support collaborative work
 
 ## Funding instruments
 
-Protocol Labs Research funds three broad categories of grants:
+Protocol Labs Research funds three broad categories of awards:
 1. Topic-specific Requests for Proposals (RFPs), designed to fund goal-driven research in response to specific open problems defined by Protocol Labs (PL). RFPs are posted intermittently based on need and readiness of our research labs to support these collaborations.
-2. Open research grants, intended to support researchers pursuing topics of interest to Protocol Labs. These include:
+2. Open research awards, intended to support researchers pursuing topics of interest to Protocol Labs. These include:
     * Doctoral Fellowships
     * Postdoctoral Fellowships
     * Faculty Summer Research Grants
     * Faculty Research Sabbatical Awards
-3. A wildcard Request for Proposals, RFP-X, by which we fund research proposed by applicants where funding from one of our other grant structures does not readily apply. Note that we have a strong preference for funding via the open grants framework, and **RFP-X applications that could be handled within the existing framework will be rejected without review.**
+3. A wildcard Request for Proposals, RFP-X, by which we fund research proposed by applicants where funding from one of our other funding structures does not readily apply. Note that we have a strong preference for funding via the open grants framework, and **RFP-X applications that could be handled within the existing framework will be rejected without review.**
 
-Evaluation of applications for the open grants will occur in quarterly rounds. Decisions will normally be made and communicated to applicants within eight weeks of these submission deadlines. Evaluation for RFPs takes place according to the timeline in the call. RFP-X applications are evaluated year-round but usually have longer decision times.
+Evaluation of applications for the open awards will occur in quarterly rounds. Decisions will normally be made and communicated to applicants within eight weeks of these submission deadlines. Evaluation for RFPs takes place according to the timeline in the call. RFP-X applications are evaluated year-round but usually have longer decision times.
 
 If you have any questions, please email us at **research-grants@protocol.ai**.
 
@@ -109,8 +109,8 @@ RFP-X provides an application path for research projects not otherwise covered (
 ### Award amounts
 
 * The Protocol Labs grants program is available worldwide (except where incompatible with local or US law) and covers a wide range of different systems and institutions.  We believe that great researchers are found in all places and want to contribute to their freedom to choose an institution.
-* Our grants are generally disbursed as unrestricted gifts, which are, in most cases, exempt from overhead or subject to the lowest overhead rate; if charged, these shall be deducted from the award as PL will not top-up funding amounts to cover overhead.
-* Specific rationales and restrictions apply to each type of grant:
+* Our awardss are generally disbursed as unrestricted gifts, which are, in most cases, exempt from overhead or subject to the lowest overhead rate; if charged, these shall be deducted from the award as PL will not top-up funding amounts to cover overhead.
+* Specific rationales and restrictions apply to each type of award:
   * [Open grants] For the reasons above, we choose not to micromanage the open grant allocation: recipients can therefore freely allocate the fixed award to salary, tuition, or other costs, including institutional overhead/F&A/indirect costs. In determining the numbers for each grant, we tried to aim for the generous end of US programs. Still, in certain cases, our grant amounts may be less than customary for a specific role/institution/country. Unfortunately, we are unable to make exceptions; if additional funding is required, we encourage grantees to seek it from other sources.
   * [RFPs] Each RFP call lists a maximum budget. We will accept applications up to that amount, *inclusive of* overhead. When applying, please make sure to include the overhead in your budget request. We will not provide additional funding in excess of the budgeted amount. Note that RFP evaluation is competitive, and the amount requested is taken into account for the grant decision. Also note that, all else being equal, we value faster delivery.
 
