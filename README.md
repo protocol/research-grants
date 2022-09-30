@@ -116,7 +116,7 @@ RFP-X provides an application path for research projects not otherwise covered (
 
 ### Publications
 
-As a general rule, we do not provide additional funding for publications and conference travel. However, publications co-authored with a Protocol Labs researcher are eligible for funding under our [Co-authored Publication Support Policy](PUBLICATIONS.md), provided basic open-access requirements are met.
+As a general rule, we do not provide funding for publications and conference travel in addition to that budgeted at the time of application. However, publications co-authored with a Protocol Labs researcher are eligible for additional funding under our [Co-authored Publication Support Policy](PUBLICATIONS.md), provided basic open-access requirements are met.
 
 ### Intellectual property (IP)
 
