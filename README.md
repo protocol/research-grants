@@ -24,8 +24,6 @@ If you have any questions, please email us at **research-grants@protocol.ai**.
 Requests for Proposals are a fairly common method for funding individuals and groups to solve problems, and have the goal of funding researchers to develop or find novel results on specific topics. RFPs are posted as issues [in this repo](RFPs/), and a summary of current and past RFPs may be found below:
 
 #### Active
- - [RFP-011: Changing the Internet](RFPs/rfp-011-changing-the-internet.md)
- - [RFP-012: Checkpointing Filecoin into Bitcoin](RFPs/rfp-012-checkpointing-fil-into-btc.md)
  - [RFP-013: Cryptonet network grants](RFPs/rfp-013-cryptonet-network-grants.md)
  - [RFP-014: Private retrieval of data](RFPs/rfp-014-private-retrieval-of-data.md)
 
@@ -40,6 +38,8 @@ Requests for Proposals are a fairly common method for funding individuals and gr
  - [RFP-008: Scalability bounds of P2P Pub/Sub (libp2p floodsub, gossipsub and episub)](RFPs/rfp-008-pubsub.md)
  - [RFP-009: Proof of Space and Useful Space](RFPs/rfp-009-proof-of-space-and-useful-space.md)
  - [RFP-010: Vector commitments](RFPs/rfp-010-vector-commitments.md)
+ - [RFP-011: Changing the Internet](RFPs/rfp-011-changing-the-internet.md)
+ - [RFP-012: Checkpointing Filecoin into Bitcoin](RFPs/rfp-012-checkpointing-fil-into-btc.md)
 
 ### Open Research Grants
 
