@@ -30,7 +30,7 @@ While researchers are not expected to collaborate with Cryptonet staff, we will 
 ## RFP details
 
 ### Application deadline
-**Rolling**: we will be reviewing applications in batches corresponding to calendar months. The call will close on **July 30, 2023**, or earlier if the allocated funding is exhausted.
+**Rolling**: We will be reviewing applications in quarterly batches. The call will close on **July 30, 2023**, or earlier if the allocated funding is exhausted.
 
 ### Award
 Commensurate with scope, up to $35,000 per award. We expect the typical grant to last one year (with possible renewal) and be funded on average $25,000. 
