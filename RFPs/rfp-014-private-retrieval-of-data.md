@@ -5,7 +5,8 @@
 ### Motivation
 The options available today for interactive (low latency) communication with privacy guarantees are very limited. Solutions developed to date have focused on the traditional web model of a single trusted origin publisher for data (as opposed to content-addressed systems where data may be replicated in advance), and have drawbacks both in their incurred latency and threat model.
 
-We are soliciting proposals to explore and develop viable mechanisms for reader-private communications under the hypothesis that it is possible to design a scalable system that does not sacrifice latency for privacy.
+We are soliciting proposals to explore and develop viable mechanisms for reader-private communications under the hypothesis that it is possible to design a scalable system that does not sacrifice latency for privacy. We have two objective tracks for this RFP: research or implementation. Below is additional information on these goals. 
+
 
 ### Existing Approaches
 The most widely deployed approaches to reader privacy rely on mixnet and mixnet-like multi-hop systems ([Nym](https://nymtech.net/), [Tor](https://www.torproject.org/)), or on trusted hardware ([SGX](https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html)).
@@ -42,12 +43,12 @@ The solutions proposed for this RFP will address our published [Open Problem on 
 This request for proposals is intended to fund the **research and development of interactive private communication mechanisms, with the goal of creating deployable prototypes**. We are particularly excited to develop work that can be applied in the contexts of libp2p, IPFS, and Filecoin, but we are considering all projects which can be generalized to content-addressed data
 
 We are interested in funding projects which:
-- Explore new mechanisms for private communication (e.g. with cryptographic, information theoretic, or statistical basis)
+- Explore new mechanisms for private communication or access (e.g. with cryptographic, information theoretic, or statistical basis)
 - Relax the traditional ‘web’ assumptions of a single origin to engage with the possibilities of pre-distributed CDN or content-addressed data.
 - Prototype the use of novel network-layer privacy technologies in real systems.
 
 ## Program Objectives
-This call for proposals seeks both **research leading to deployment-ready design sketches** for private communication mechanisms as well as **development activities implementing prototypes** from existing  designs. Applicants should specify which of these objectives their proposal addresses.
+This call for proposals seeks both **research leading to deployment-ready design sketches** for private communication mechanisms as well as **development activities implementing prototypes** from existing designs. Applicants should specify which of these objectives their proposal addresses.
 
 **Objective 1 (Research):**
 Design of a mechanism or architecture for private/anonymous low-latency communication
