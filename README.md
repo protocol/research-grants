@@ -15,7 +15,7 @@ Protocol Labs Research funds three broad categories of awards:
     * Faculty Research Sabbatical Awards
 3. A wildcard Request for Proposals, RFP-X, by which we fund research proposed by applicants where funding from one of our other funding structures does not readily apply. Note that we have a strong preference for funding via the open grants framework, and **RFP-X applications that could be handled within the existing framework will be rejected without review.**
 
-Evaluation of applications for the open awards will occur in quarterly rounds. Decisions will normally be made and communicated to applicants within eight weeks of these submission deadlines. Evaluation for RFPs takes place according to the timeline in the call. RFP-X applications are evaluated year-round but usually have longer decision times.
+Evaluation of applications for the open awards will occur in quarterly rounds. Decisions will normally be made and communicated to applicants within seven weeks of these submission deadlines. Evaluation for RFPs takes place according to the timeline in the call. RFP-X applications are evaluated year-round but usually have longer decision times.
 
 If you have any questions, please email us at **research-grants@protocol.ai**.
 
@@ -100,7 +100,7 @@ RFP-X provides an application path for research projects not otherwise covered (
 
 ### Review process
 
-* We aim to return a decision within eight weeks of the application deadline. Our review process includes two rounds:
+* We aim to return a decision within seven weeks of the application deadline. Our review process includes two rounds:
     *  A first formal review, during which applications failing formal checks will be declined and invited to apply in the next cycle. To avoid this outcome, please make sure you fulfill all the requirements when applying.
     * An in-depth review by a technical committee.
 * At the end of the process, we will provide you with a decision and feedback.
