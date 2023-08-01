@@ -1,5 +1,7 @@
 # Protocol Labs Research Grants
 
+> 💡 Please note that the research grants programme is indefinitely paused, and we are not accepting new applications at this time. This repository remains accessible for historical reasons.
+
 ## Overview
 
 The Protocol Labs Research Grant Program aims to both support collaborative work on problems defined by the broader research community and drive progress on clearly scoped research projects critical to our work at Protocol Labs. We encourage proposals aligned with PL's mission to drive breakthroughs in computing to push humanity forward, and we welcome unique perspectives and diverse backgrounds.
@@ -24,7 +26,7 @@ If you have any questions, please email us at **research-grants@protocol.ai**.
 Requests for Proposals are a fairly common method for funding individuals and groups to solve problems, and have the goal of funding researchers to develop or find novel results on specific topics. RFPs are posted as issues [in this repo](RFPs/), and a summary of current and past RFPs may be found below:
 
 #### Active
- - [RFP-014: Private retrieval of data](RFPs/rfp-014-private-retrieval-of-data.md)
+ - n/a
 
 #### Inactive
  - [RFP-001: Novel constructions for Proof-of-Replication](RFPs/rfp-001-proof-of-replication.md)
@@ -40,6 +42,7 @@ Requests for Proposals are a fairly common method for funding individuals and gr
  - [RFP-011: Changing the Internet](RFPs/rfp-011-changing-the-internet.md)
  - [RFP-012: Checkpointing Filecoin into Bitcoin](RFPs/rfp-012-checkpointing-fil-into-btc.md)
  - [RFP-013: Cryptonet network grants](RFPs/rfp-013-cryptonet-network-grants.md)
+ - [RFP-014: Private retrieval of data](RFPs/rfp-014-private-retrieval-of-data.md)
 
 ### Open Research Grants
 
@@ -88,7 +91,7 @@ RFP-X provides an application path for research projects not otherwise covered (
 
 ### Application process
 
-* Applications will only be accepted via our grant management portal: **[grants.protocol.ai](https://grants.protocol.ai/)**.
+* ~Applications will only be accepted via our grant management portal: **[grants.protocol.ai](https://grants.protocol.ai/)**.~
 * We intend for our application process to be lightweight. In addition to basic applicant information, we require a short research proposal (max 5 pages), describing the problem and proposed directions (and relating them to our priorities), as well as a proposed timeline with clear milestones. We provide recommended templates for:
   * [Open grants](https://docs.google.com/document/d/1udJj6NM3-onBN8mXy0A3XDEzaSgv0kHGy-6vNK8iQl0/view)
   * [RFPs](https://docs.google.com/document/d/1lB6c8XZSbPtiONwdjFm-HN0i4w8hKGSFUc1xPLWU3T4/view)
