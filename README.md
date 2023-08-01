@@ -43,11 +43,7 @@ Requests for Proposals are a fairly common method for funding individuals and gr
 
 ### Open Research Grants
 
-Applications for open grants can be submitted at any time and are processed in quarterly blocks. The cut-offs for each quarter are:
-  * 15 February
-  * 15 May
-  * 15 August
-  * 15 November
+The [Open Research Grants program has been paused](https://research.protocol.ai/blog/2023/pausing-pl-research-open-research-grants/), and applications are not being accepted / reviewed at this time.
 
 #### Protocol Labs Doctoral Fellowship
 
