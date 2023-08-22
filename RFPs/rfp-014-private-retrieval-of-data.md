@@ -104,6 +104,6 @@ Commensurate with scope, up to USD 150k per award for research grants and USD 30
 We encourage you to reach out to hello@arcological.xyz or visit #private-retrieval in the [Filecoin Slack](https://join.slack.com/t/filecoinproject/shared_invite/zt-21p6thamc-l0rb0NcG6l2tH0NyEuPjNg) if you’re considering applying or have any questions.
 
 ### Applications
-Please submit your proposal using by submitting an issue under the RFP-14 in the [Arcological] github. 
+Please submit your proposal using by submitting an issue under the RFP-14 in the [Arcological](https://github.com/DeepLab/arcological/issues/1) github. Application template can be found within the repo as well. 
 
 **Results are to be released as open source under the [Permissive License Stack](https://protocol.ai/blog/announcing-the-permissive-license-stack/) (Dual License Apache-2 + MIT).**
