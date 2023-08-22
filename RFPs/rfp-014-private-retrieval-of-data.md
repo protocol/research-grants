@@ -64,7 +64,7 @@ Development of a deployment-ready prototype of a mechanism or architecture for p
 ### Application Deadline
 This RFP will be awarded in phases to accommodate iterative developmental work referencing prior designs.
 
-**Rolling:** we will be reviewing applications in batches corresponding to calendar months. Phase 1 will close on **1 March 2023** or earlier if awarded.
+**Rolling:** we will be reviewing applications in batches corresponding to calendar months. Phase 1 will close on **October 1 2023 ** or earlier if awarded.
 
 ### Recommended team
 
@@ -81,11 +81,11 @@ Commensurate with scope, up to USD 150k per award for research grants and USD 30
 60% upon award and 40% on completion (adjustable to accommodate institutional requirements). Awardees may choose to receive any amount of their award in FIL.
 
 ### Point of contact
-@willscott
+@willscott @wheresaddie 
 
-We encourage you to reach out to research-grants@protocol.ai or visit #private-retrieval in the [Lodestar Discord](https://discord.gg/FCu5aUquXY) if you’re considering applying or have any questions.
+We encourage you to reach out to hello@arcological.xyz or visit #private-retrieval in the [Filecoin Slack](https://join.slack.com/t/filecoinproject/shared_invite/zt-21p6thamc-l0rb0NcG6l2tH0NyEuPjNg) if you’re considering applying or have any questions.
 
 ### Applications
-Please submit your proposal using our application management system at https://grants.protocol.ai/.
+Please submit your proposal using by submitting an issue under the RFP-14 in the [Arcological] github. 
 
 **Results are to be released as open source under the [Permissive License Stack](https://protocol.ai/blog/announcing-the-permissive-license-stack/) (Dual License Apache-2 + MIT).**
