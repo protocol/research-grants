@@ -59,6 +59,24 @@ Development of a deployment-ready prototype of a mechanism or architecture for p
 - The design to be implemented should be referenced and fully specified in the proposal.
 - Solutions should be accompanied by experimental/simulation results comparing the performance of the system to that  projected in the original research result, and to other relevant extant solutions.
 
+## Spring 2023 Awardees: 
+For the Spring23 RFP14 cohort, we extended a total of $750,000 in funding to 6 teams or individuals.
+
+- 3 are investigating the scalability of “private information retrieval” techniques
+- 3 are investigating applications of threshold or multi-party computation
+- 3 are investigating mechanism designs involving multiple hops - across DHTs or mixnets.
+- 3 are investigating the use of homomorphic encryption.
+
+  ### Supported Teams
+- Private Information Retrieval for IPFS - Miti Mazmudar (University of Waterloo)
+- Private information retrieval with access control - Sebastian Angel (University of Pennsylvania)
+- Scalable Private Information Retrieval Protocols using Lattices - David Wu (Univsersity of Texas at Austin)
+- Private retrieval of data (single-server TreePIR) - Arthur Lazzaretti (Yale University)
+- PIR on the mixnet - masala (Katzenpost)
+- Secret Recovery Service - Kevin Wellenzohn, Stefan Hechenberger (Blockshake GmBh)
+
+  More information can be found [here](https://research.protocol.ai/blog/2023/private-retrieval-grant-2023-roundup/)
+
 ## RFP Details
 
 ### Application Deadline
