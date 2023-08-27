@@ -59,12 +59,30 @@ Development of a deployment-ready prototype of a mechanism or architecture for p
 - The design to be implemented should be referenced and fully specified in the proposal.
 - Solutions should be accompanied by experimental/simulation results comparing the performance of the system to that  projected in the original research result, and to other relevant extant solutions.
 
+## Spring 2023 Awardees: 
+For the Spring23 RFP14 cohort, we extended a total of $750,000 in funding to 6 teams or individuals.
+
+- 3 are investigating the scalability of “private information retrieval” techniques
+- 3 are investigating applications of threshold or multi-party computation
+- 3 are investigating mechanism designs involving multiple hops - across DHTs or mixnets.
+- 3 are investigating the use of homomorphic encryption.
+
+  ### Supported Teams
+- Private Information Retrieval for IPFS - Miti Mazmudar (University of Waterloo)
+- Private information retrieval with access control - Sebastian Angel (University of Pennsylvania)
+- Scalable Private Information Retrieval Protocols using Lattices - David Wu (Univsersity of Texas at Austin)
+- Private retrieval of data (single-server TreePIR) - Arthur Lazzaretti (Yale University)
+- PIR on the mixnet - masala (Katzenpost)
+- Secret Recovery Service - Kevin Wellenzohn, Stefan Hechenberger (Blockshake GmBh)
+
+  More information can be found [here](https://research.protocol.ai/blog/2023/private-retrieval-grant-2023-roundup/)
+
 ## RFP Details
 
 ### Application Deadline
 This RFP will be awarded in phases to accommodate iterative developmental work referencing prior designs.
 
-**Rolling:** we will be reviewing applications in batches corresponding to calendar months. Phase 1 will close on **1 March 2023** or earlier if awarded.
+**Rolling:** we will be reviewing applications in batches corresponding to calendar months. Phase 1 will close on **October 1 2023 ** or earlier if awarded.
 
 ### Recommended team
 
@@ -81,11 +99,11 @@ Commensurate with scope, up to USD 150k per award for research grants and USD 30
 60% upon award and 40% on completion (adjustable to accommodate institutional requirements). Awardees may choose to receive any amount of their award in FIL.
 
 ### Point of contact
-@willscott
+@willscott @wheresaddie 
 
-We encourage you to reach out to research-grants@protocol.ai or visit #private-retrieval in the [Lodestar Discord](https://discord.gg/FCu5aUquXY) if you’re considering applying or have any questions.
+We encourage you to reach out to hello@arcological.xyz or visit #private-retrieval in the [Filecoin Slack](https://join.slack.com/t/filecoinproject/shared_invite/zt-21p6thamc-l0rb0NcG6l2tH0NyEuPjNg) if you’re considering applying or have any questions.
 
 ### Applications
-Please submit your proposal using our application management system at https://grants.protocol.ai/.
+Please submit your proposal using by submitting an issue under the RFP-14 in the [Arcological](https://github.com/DeepLab/arcological/issues/1) github. Application template can be found within the repo as well. 
 
 **Results are to be released as open source under the [Permissive License Stack](https://protocol.ai/blog/announcing-the-permissive-license-stack/) (Dual License Apache-2 + MIT).**
